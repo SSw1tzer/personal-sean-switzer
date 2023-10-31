@@ -4,5 +4,17 @@
   },
   "index.qmd": {
     "index.html": "52b3fb22"
+  },
+  "404.qmd": {
+    "404.html": "844c221a"
+  },
+  "articles/article_01.qmd": {
+    "article_01.html": "378d1cc0"
+  },
+  "articles/article_02.qmd": {
+    "article_02.html": "87dee60b"
+  },
+  "articles/index.qmd": {
+    "index.html": "22d15bee"
   }
 }

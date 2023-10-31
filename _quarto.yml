@@ -7,11 +7,28 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: articles/index.qmd
+        text: Articles
+      - href: article_01.qmd
+        text: test
+
+  sidebar:
+    - id: articles
+      title: "Articles"
+      style: "docked"
+      background: dark
+      collapse-level: 2
+      contents: 
+        - text: "Article One"
+          href:  articles/article_01.qmd
+        - text: "Article Two"
+          href:  articles/article_02.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: vapor
     css: styles.css
     toc: true
 
