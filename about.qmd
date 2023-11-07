@@ -2,4 +2,19 @@
 title: "About"
 ---
 
-About this site
+## Introductions
+My name is Sean Switzer i'm a sophmore at georgetown college and am looking to major in 
+software design and programming. 
+
+## Background and Today
+I was introduced to programming in a highschool engineering course, in which we started
+learning the C# language to use with vex robotics programming. Following this introduction 
+I fell in love with programming and the many puzzles it provides, I went on to study javascript
+in an AP computer science course learning the history of computing, the use of binary, hexadecimal, and ascii.
+I started working on programs that could be run on mobile devices and programmed a basic time based clicker
+game. Now I am currently attending my third computer science class CSC 324 and looking to further my studies in the following semesters.
+
+## About this site
+This site is a warmup project for a future CSC324 website project. 
+The following website will contain articles discussing past homework answers.
+

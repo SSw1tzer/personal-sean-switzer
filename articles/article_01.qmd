@@ -1,4 +1,187 @@
 ---
-title: " Article One"
+title: "A Class Called Group"
 engine: knitr
 ---
+
+# Introduction to the problem
+
+This article will discuss a solution to a question from chapter 6 of
+Eloquent JavaScript 3rd edition (2018).
+
+The following is the problem statement from the text book.
+
+<blockquote>
+Write a class called Group (since Set is already taken). Like Set, it has add, delete, and has methods. Its constructor creates an empty group, add adds a value to the group (but only if it isn’t already a member), delete removes its argument from the group (if it was a member), and has returns a Boolean value indicating whether its argument is a member of the group.
+</blockquote>
+
+# The Solution
+
+## Creating the Class
+
+First we initialize the `class` and name it `group`, within we set up the `constructor` and initialize an `array` setting it to be empty.
+
+```js
+class group {
+    constructor () {
+        this.array = [];
+    }
+}
+```
+## Similar Processes
+
+The following code and discussion will discuss areas of code that will be the same in
+all the following methods.
+
+First we set a `variable` named array and make it equal to `this.array`.
+
+```js
+let array = this.array;
+```
+we then set a `variable` named included that is by default `false`, this variable will alow us
+to control whether the program will continue to run if the `object` is already in the `array`.
+
+```js
+let included = false;
+```
+
+The first `if` statement of each `method` will subset the array to the `variable` i to see 
+if the `object` in that place of the array is equal to the `object` that was entered into the 
+add `method`, if it is it will set our `variable` included to be `true`. This allows each `method` to
+ensure that the `object` entered is or is not already in the `array`.
+
+```js
+ if(array[i] == object) {
+            included = true;
+        }
+```
+
+## The Add Method
+Next we'll setup the `add` method. the `add` method will take an argument called 
+`object` and should add that `object` to `this.array` the array that we initialized above 
+while also ensuring that the `object` isn't already in the `array`.
+
+```js
+add(object) 
+```
+
+First we'll set up our `variables` as discussed above.
+
+We'll then beggin to set up the main process of our add `method` with the `for` loop, the `for` loop 
+takes the set `variable` i, which is set to equal 0, and applies it to an argument in this case
+it checks to see if i is less than the length of the `array`, if i is les the for loop will 
+increment i by adding 1 to it, thus the i++, and will then allow the rest of the program to run.
+The `for` loop will then continue to check if its argument is true and running the program until 
+i is greater then the length of the array. 
+
+```js
+for(let i = 0; i < array.length; i++)
+```
+
+Within the `for` loop we will have an `if` statement with an `if - else` statement within it.
+
+The first if statement will subset the array to the `variable` i to see if the `object` in that place
+of the array is equal to the `object` that was entered into the add `method`, if it is it will set 
+our `variable` included to be `true`. 
+
+```js
+ if(array[i] == object) {
+            included = true;
+        }
+```
+Our next statement the `if - else` statement will first check to see if our `variable`
+'included" is `true` using its `if` statement, if it is it will use `console.log` to send a message in the console that will say the `object` "is already in the array". If it finds that inlcuded is `false` 
+then the `else` statement will occur and the `object` will be added to the array though  the use of 
+the `.push` command
+
+```js
+ if(included = true) {
+        console.log(object + " is already in the array");
+    } else {
+        array.push(object)
+    }
+```
+
+The following is the full code for the add `method`.
+```js
+    add(object) {
+        let array = this.array;
+        let included = false;
+        for(let i = 0; i < array.length; i++) {
+        if(array[i] == object) {
+            included = true;
+        }
+    } if(included = true) {
+        console.log(object + " is already in the array");
+    } else {
+        array.push(object)
+    }
+    } 
+```
+
+## The Delete Method
+
+Next we need to construct the delete `method`, this method will check the array for the `object` given and 
+remove it from the array if it exists. If not it will state that the `object` is not in the array.
+
+First as above we initialize the delete `method`.
+
+```js 
+delete(object) 
+```
+
+we then set up the `variables` the same as we did with the add `method`, the reason for setting them up each time is to ensure the `variables` are at their base value for each `method`.
+
+next we set up the `for` loop which is a bit different than the add `method`'s. This `for` loop uses 
+`this.array.length` instead of the `variable` "array" this is because we're going to be removing things from the `array` and need the total length to stay so the `for` loop can iterate. 
+
+```js
+for (let i = 0; i < this.array.length; i++)
+```
+
+finally we get to the `if` statements, the first of which is the same for each `method`. The second satement however checks to see if included is `true`, using its `if` section, if included is `true` then the `array` is modified using `.filter` to remove the `object` by filtering the `array` to have all `elements` except `object`. If inlcuded is `false` we move to the `else` which sends a message to the console using 
+`console.log` saying that the `object` "doesn't exist in the array".
+
+```js
+   if(included = true) {
+            array = array.filter( elem => elem !== object );
+        } else {
+            console.log(object + " doesn't exist in the array")
+        }
+```
+
+below is the full code for the delete `method`.
+
+```js
+    delete(object) {
+        let array = this.array;
+        let included = false;
+        for (let i = 0; i < this.array.length; i++) {
+            if(array[i] == object) {
+                included = true;
+            }
+        } if(included = true) {
+            array = array.filter( elem => elem !== object );
+        } else {
+            console.log(object + " doesn't exist in the array")
+        }
+    }
+```
+
+## The Has Method
+
+Finally we have the has `method` which will check to see if the `object` exists within the `array`. 
+
+This `method` is fairly simple as it uses a `for` loop like the add `method` to check if the `object` is included with an `if` statement, if it is it will set included to `true` else inlcuded will be `false` it will then return the `variable` "inlcuded".
+
+```js
+    has(object) {
+        let array = this.array;
+        let included = false;
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] == object) {
+                included = true;
+            }
+        }
+        return included;
+    }
+```
