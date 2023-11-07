@@ -14,18 +14,25 @@
     "text": "My name is Sean Switzer i’m a sophmore at georgetown college and am looking to major in software design and programming."
   },
   {
-    "objectID": "articles/index.html",
-    "href": "articles/index.html",
-    "title": "Articles",
-    "section": "",
-    "text": "Intro to articles"
-  },
-  {
     "objectID": "about.html#introductions",
     "href": "about.html#introductions",
     "title": "About",
     "section": "",
     "text": "My name is Sean Switzer i’m a sophmore at georgetown college and am looking to major in software design and programming."
+  },
+  {
+    "objectID": "about.html#background-and-today",
+    "href": "about.html#background-and-today",
+    "title": "About",
+    "section": "Background and Today",
+    "text": "Background and Today\nI was introduced to programming in a highschool engineering course, in which we started learning the C# language to use with vex robotics programming. Following this introduction I fell in love with programming and the many puzzles it provides, I went on to study javascript in an AP computer science course learning the history of computing, the use of binary, hexadecimal, and ascii. I started working on programs that could be run on mobile devices and programmed a basic time based clicker game. Now I am currently attending my third computer science class CSC 324 and looking to further my studies in the following semesters."
+  },
+  {
+    "objectID": "about.html#about-this-site",
+    "href": "about.html#about-this-site",
+    "title": "About",
+    "section": "About this site",
+    "text": "About this site\nThis site is a warmup project for a future CSC324 website project. The following website will contain articles discussing past homework answers."
   },
   {
     "objectID": "articles/article_01.html",
@@ -53,34 +60,27 @@
     "href": "articles/article_01.html#the-add-method",
     "title": "A Class Called Group",
     "section": "The Add Method",
-    "text": "The Add Method\nNext we’ll setup the add method. the add method will take an argument called object and should add that object to this.array the array that we initialized above while also ensuring that the object isn’t already in the array.\nadd(object) \nFirst we’ll set up our variables as discussed above.\nWe’ll then beggin to set up the main process of our add method with the for loop, the for loop takes the set variable i, which is set to equal 0, and applies it to an argument in this case it checks to see if i is less than the length of the array, if i is les the for loop will increment i by adding 1 to it, thus the i++, and will then allow the rest of the program to run. The for loop will then continue to check if its argument is true and running the program until i is greater then the length of the array.\nfor(let i = 0; i &lt; array.length; i++)\nWithin the for loop we will have an if statement with an if - else statement within it.\nThe first if statement will subset the array to the variable i to see if the object in that place of the array is equal to the object that was entered into the add method, if it is it will set our variable included to be true.\n if(array[i] == object) {\n            included = true;\n        }\nOur next statement the if - else statement will first check to see if our variable ’included” is true using its if statement, if it is it will use console.log to send a message in the console that will say the object “is already in the array”. If it finds that inlcuded is false then the else statement will occur and the object will be added to the array though the use of the .push command\n if(included = true) {\n        console.log(object + \" is already in the array\");\n    } else {\n        array.push(object)\n    }\nThe following is the full code for the add method discussed above\n    add(object) {\n        let array = this.array;\n        let included = false;\n        for(let i = 0; i &lt; array.length; i++) {\n        if(array[i] == object) {\n            included = true;\n        }\n    } if(included = true) {\n        console.log(object + \" is already in the array\");\n    } else {\n        array.push(object)\n    }\n    }"
+    "text": "The Add Method\nNext we’ll setup the add method. the add method will take an argument called object and should add that object to this.array the array that we initialized above while also ensuring that the object isn’t already in the array.\nadd(object) \nFirst we’ll set up our variables as discussed above.\nWe’ll then beggin to set up the main process of our add method with the for loop, the for loop takes the set variable i, which is set to equal 0, and applies it to an argument in this case it checks to see if i is less than the length of the array, if i is les the for loop will increment i by adding 1 to it, thus the i++, and will then allow the rest of the program to run. The for loop will then continue to check if its argument is true and running the program until i is greater then the length of the array.\nfor(let i = 0; i &lt; array.length; i++)\nWithin the for loop we will have an if statement with an if - else statement within it.\nThe first if statement will subset the array to the variable i to see if the object in that place of the array is equal to the object that was entered into the add method, if it is it will set our variable included to be true.\n if(array[i] == object) {\n            included = true;\n        }\nOur next statement the if - else statement will first check to see if our variable ’included” is true using its if statement, if it is it will use console.log to send a message in the console that will say the object “is already in the array”. If it finds that inlcuded is false then the else statement will occur and the object will be added to the array though the use of the .push command\n if(included = true) {\n        console.log(object + \" is already in the array\");\n    } else {\n        array.push(object)\n    }\nThe following is the full code for the add method.\n    add(object) {\n        let array = this.array;\n        let included = false;\n        for(let i = 0; i &lt; array.length; i++) {\n        if(array[i] == object) {\n            included = true;\n        }\n    } if(included = true) {\n        console.log(object + \" is already in the array\");\n    } else {\n        array.push(object)\n    }\n    }"
   },
   {
     "objectID": "articles/article_01.html#the-delete-method",
     "href": "articles/article_01.html#the-delete-method",
     "title": "A Class Called Group",
     "section": "The Delete Method",
-    "text": "The Delete Method\n    delete(object) {\n        let array = this.array;\n        let included = false;\n        for (let i = 0; i &lt; this.array.length; i++) {\n            if(array[i] == object) {\n                included = true;\n            }\n        } if(included = true) {\n            array = array.filter( elem =&gt; elem !== object );\n        } else {\n            console.log(object + \" doesn't exist in the array\")\n        }\n    }"
+    "text": "The Delete Method\nNext we need to construct the delete method, this method will check the array for the object given and remove it from the array if it exists. If not it will state that the object is not in the array.\nFirst as above we initialize the delete method.\ndelete(object) \nwe then set up the variables the same as we did with the add method, the reason for setting them up each time is to ensure the variables are at their base value for each method.\nnext we set up the for loop which is a bit different than the add method’s. This for loop uses this.array.length instead of the variable “array” this is because we’re going to be removing things from the array and need the total length to stay so the for loop can iterate.\nfor (let i = 0; i &lt; this.array.length; i++)\nfinally we get to the if statements, the first of which is the same for each method. The second satement however checks to see if included is true, using its if section, if included is true then the array is modified using .filter to remove the object by filtering the array to have all elements except object. If inlcuded is false we move to the else which sends a message to the console using console.log saying that the object “doesn’t exist in the array”.\n   if(included = true) {\n            array = array.filter( elem =&gt; elem !== object );\n        } else {\n            console.log(object + \" doesn't exist in the array\")\n        }\nbelow is the full code for the delete method.\n    delete(object) {\n        let array = this.array;\n        let included = false;\n        for (let i = 0; i &lt; this.array.length; i++) {\n            if(array[i] == object) {\n                included = true;\n            }\n        } if(included = true) {\n            array = array.filter( elem =&gt; elem !== object );\n        } else {\n            console.log(object + \" doesn't exist in the array\")\n        }\n    }"
   },
   {
     "objectID": "articles/article_01.html#the-has-method",
     "href": "articles/article_01.html#the-has-method",
     "title": "A Class Called Group",
     "section": "The Has Method",
-    "text": "The Has Method\n    has(object) {\n        let array = this.array;\n        let included = false;\n        for (let i = 0; i &lt; this.array.length; i++) {\n            if (array[i] == object) {\n                included = true;\n            }\n        }\n        return included;\n    }"
+    "text": "The Has Method\nFinally we have the has method which will check to see if the object exists within the array.\nThis method is fairly simple as it uses a for loop like the add method to check if the object is included with an if statement, if it is it will set included to true else inlcuded will be false it will then return the variable “inlcuded”.\n    has(object) {\n        let array = this.array;\n        let included = false;\n        for (let i = 0; i &lt; array.length; i++) {\n            if (array[i] == object) {\n                included = true;\n            }\n        }\n        return included;\n    }"
   },
   {
-    "objectID": "about.html#background-and-today",
-    "href": "about.html#background-and-today",
-    "title": "About",
-    "section": "Background and Today",
-    "text": "Background and Today\nI was introduced to programming in a highschool engineering course, in which we started learning the C# language to use with vex robotics programming. Following this introduction I fell in love with programming and the many puzzles it provides, I went on to study javascript in an AP computer science course learning the history of computing, the use of binary, hexadecimal, and ascii. I started working on programs that could be run on mobile devices and programmed a basic time based clicker game. Now I am currently attending my third computer science class CSC 324 and looking to further my studies in the following semesters."
-  },
-  {
-    "objectID": "about.html#about-this-site",
-    "href": "about.html#about-this-site",
-    "title": "About",
-    "section": "About this site",
-    "text": "About this site\nThis site is a warmup project for a future CSC324 website project. The following website will contain articles discussing past homework answers."
+    "objectID": "articles/index.html",
+    "href": "articles/index.html",
+    "title": "Articles",
+    "section": "",
+    "text": "Intro to articles"
   }
 ]
