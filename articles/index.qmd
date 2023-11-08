@@ -2,4 +2,8 @@
 title: "Articles"
 ---
 
-Intro to articles
+These two articles go in depth with my solutions to two of the homework assignments I had this semester. 
+
+The first article, "A Class called Group", discusses the solution to a problem that uses a `group` and it's `methods` to answer the problem.
+
+The second article, "Recursive Recursion", displays the use of recursive `functions` to solve the problem given in the homework assignment.

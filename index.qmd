@@ -2,6 +2,10 @@
 title: "warmup-sean-switzer"
 ---
 
+## About this site
+This site is a warmup project for a future CSC324 website project. 
+The following website will contain articles discussing past homework answers.
+
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

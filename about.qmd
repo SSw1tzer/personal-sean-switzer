@@ -14,7 +14,5 @@ in an AP computer science course learning the history of computing, the use of b
 I started working on programs that could be run on mobile devices and programmed a basic time based clicker
 game. Now I am currently attending my third computer science class CSC 324 and looking to further my studies in the following semesters.
 
-## About this site
-This site is a warmup project for a future CSC324 website project. 
-The following website will contain articles discussing past homework answers.
+
 

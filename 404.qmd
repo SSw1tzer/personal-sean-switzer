@@ -2,4 +2,4 @@
 title: "Page Not Found"
 ---
 
-The page you are looking for does not exist please click the home button to return to the home page
+The page you are looking for does not exist please click one of the above buttons to navigate to another page.

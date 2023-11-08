@@ -13,8 +13,6 @@ website:
         text: About
       - href: articles/index.qmd
         text: Articles
-      - href: article_01.qmd
-        text: test
 
   sidebar:
     - id: articles
@@ -23,9 +21,9 @@ website:
       background: dark
       collapse-level: 2
       contents: 
-        - text: "Article One"
+        - text: "A Class Called Group"
           href:  articles/article_01.qmd
-        - text: "Article Two"
+        - text: "Recursive Recursion"
           href:  articles/article_02.qmd
 
 format:

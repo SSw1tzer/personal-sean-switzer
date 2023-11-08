@@ -1,4 +1,94 @@
 ---
-title: "Article Two"
+title: "Recursive Recursion"
 engine: knitr
 ---
+
+# Introduction to The Problem
+
+The following is the problem statement from chapter 3 of the text book
+Eloquent JavaScript 3rd edition (2018).
+
+<blockquote>
+We’ve seen that % (the remainder operator) can be used to test whether a number is even or odd by using % 2 to see whether it’s divisible by two. Here’s another way to define whether a positive whole number is even or odd:
+
+Zero is even.
+
+One is odd.
+
+For any other number N, its evenness is the same as N - 2.
+
+Define a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean.
+</blockquote>
+
+This solution looks to answer this problem in the best way possible.
+
+# The Solution
+
+## Creating The Function
+Initially we must create the `function` and name it `isEven` as directed then we need to give it the value `num`. We can do this as displayed below.
+
+```js
+function isEven(num)
+``` 
+
+## The Function Body
+
+With the name and the `function` initialized we now need to work on the body of the `function`. The `function` body is the main process that will be used when the `function` is called. 
+
+First we'll start with an `if` statement, this first statement will check to see if the value of `num` is less than 0, if it is then it will change the value of `num` to be equal to `isEven(num + 2)` this enters into a recursive occurence where the `value` of `num` will continue to be increased by 2 and then re-entered into the `isEven` function until num is greater than 0.
+
+```js
+ if (num < 0) {
+        num = isEven(num + 2);
+    }
+```
+
+Once the `value` of `num` is greater than 0 the `function` will enter its first `else` statement. In which is held another `if` - `else if` - `else` statement. 
+
+The first part of this statement being an `if` statement that will check if the `value` of `num` is equal to 0, if it is then the `value` of `num` will be set to `true`.
+```js
+ if (num == 0) {
+            num = true;
+ }
+```
+
+Otherwise the `else if` statement will check if the `value` of `num` equals 1, if this is true then `num` will be set to `false`. If both `if` statements are `false` then the function will continue to the final `else` statement.
+
+```js
+else if (num == 1) {
+            num = false;
+        }
+```
+
+In the final `else` statement we see another recursive process in which the `value` of `num` is set to equal the value of `isEven(num - 2)` which will decrease the `value` of `num` by 2 then re-enter that `value` into the function until the `value` is equal to 0 or 1 in which the `value` of `num` will be `true` or `false`.
+
+```js
+else {
+            num = isEven(num - 2);
+        }
+```
+Once the `value` of `num` is equal to 0 or 1 then the `function` will `return` the `value` of `num` 
+which will be either `true` or `false`.
+
+```js
+ return num;
+```
+
+The following is the full code for the `function` `isEven` that solves the above problem. Feel free to test it with any number!
+
+```js
+function isEven(num) {
+    if (num < 0) {
+        num = isEven(num + 2);
+    } else {
+        if (num == 0) {
+            num = true;
+        } else if (num == 1) {
+            num = false;
+        } else {
+            num = isEven(num - 2);
+        }
+    }
+    return num;
+}
+```

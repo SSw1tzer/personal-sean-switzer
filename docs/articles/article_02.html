@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>warmup-sean-switzer - Article Two</title>
+<title>warmup-sean-switzer - Recursive Recursion</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -93,10 +127,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../articles/index.html" rel="" target="">
  <span class="menu-text">Articles</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../article_01.qmd" rel="" target="">
- <span class="menu-text">test</span></a>
-  </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -108,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../articles/article_02.html">Article Two</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../articles/article_02.html">Recursive Recursion</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -123,13 +153,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../articles/article_01.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Article One</span></a>
+ <span class="menu-text">A Class Called Group</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../articles/article_02.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Article Two</span></a>
+ <span class="menu-text">Recursive Recursion</span></a>
   </div>
 </li>
     </ul>
@@ -138,14 +168,25 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction-to-the-problem" id="toc-introduction-to-the-problem" class="nav-link active" data-scroll-target="#introduction-to-the-problem">Introduction to The Problem</a></li>
+  <li><a href="#the-solution" id="toc-the-solution" class="nav-link" data-scroll-target="#the-solution">The Solution</a>
+  <ul class="collapse">
+  <li><a href="#creating-the-function" id="toc-creating-the-function" class="nav-link" data-scroll-target="#creating-the-function">Creating The Function</a></li>
+  <li><a href="#the-function-body" id="toc-the-function-body" class="nav-link" data-scroll-target="#the-function-body">The Function Body</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Article Two</h1>
+<h1 class="title">Recursive Recursion</h1>
 </div>
 
 
@@ -160,8 +201,66 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="introduction-to-the-problem" class="level1">
+<h1>Introduction to The Problem</h1>
+<p>The following is the problem statement from chapter 3 of the text book Eloquent JavaScript 3rd edition (2018).</p>
+<blockquote class="blockquote">
+<p>We’ve seen that % (the remainder operator) can be used to test whether a number is even or odd by using % 2 to see whether it’s divisible by two. Here’s another way to define whether a positive whole number is even or odd:</p>
+<p>Zero is even.</p>
+<p>One is odd.</p>
+<p>For any other number N, its evenness is the same as N - 2.</p>
+Define a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean.
+</blockquote>
+<p>This solution looks to answer this problem in the best way possible.</p>
+</section>
+<section id="the-solution" class="level1">
+<h1>The Solution</h1>
+<section id="creating-the-function" class="level2">
+<h2 class="anchored" data-anchor-id="creating-the-function">Creating The Function</h2>
+<p>Initially we must create the <code>function</code> and name it <code>isEven</code> as directed then we need to give it the value <code>num</code>. We can do this as displayed below.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">isEven</span>(num)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="the-function-body" class="level2">
+<h2 class="anchored" data-anchor-id="the-function-body">The Function Body</h2>
+<p>With the name and the <code>function</code> initialized we now need to work on the body of the <code>function</code>. The <code>function</code> body is the main process that will be used when the <code>function</code> is called.</p>
+<p>First we’ll start with an <code>if</code> statement, this first statement will check to see if the value of <code>num</code> is less than 0, if it is then it will change the value of <code>num</code> to be equal to <code>isEven(num + 2)</code> this enters into a recursive occurence where the <code>value</code> of <code>num</code> will continue to be increased by 2 and then re-entered into the <code>isEven</code> function until num is greater than 0.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a> <span class="cf">if</span> (num <span class="op">&lt;</span> <span class="dv">0</span>) {</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>        num <span class="op">=</span> <span class="fu">isEven</span>(num <span class="op">+</span> <span class="dv">2</span>)<span class="op">;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    }</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Once the <code>value</code> of <code>num</code> is greater than 0 the <code>function</code> will enter its first <code>else</code> statement. In which is held another <code>if</code> - <code>else if</code> - <code>else</code> statement.</p>
+<p>The first part of this statement being an <code>if</code> statement that will check if the <code>value</code> of <code>num</code> is equal to 0, if it is then the <code>value</code> of <code>num</code> will be set to <code>true</code>.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a> <span class="cf">if</span> (num <span class="op">==</span> <span class="dv">0</span>) {</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>            num <span class="op">=</span> <span class="kw">true</span><span class="op">;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a> }</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Otherwise the <code>else if</code> statement will check if the <code>value</code> of <code>num</code> equals 1, if this is true then <code>num</code> will be set to <code>false</code>. If both <code>if</code> statements are <code>false</code> then the function will continue to the final <code>else</code> statement.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> <span class="cf">if</span> (num <span class="op">==</span> <span class="dv">1</span>) {</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>            num <span class="op">=</span> <span class="kw">false</span><span class="op">;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>        }</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>In the final <code>else</code> statement we see another recursive process in which the <code>value</code> of <code>num</code> is set to equal the value of <code>isEven(num - 2)</code> which will decrease the <code>value</code> of <code>num</code> by 2 then re-enter that <code>value</code> into the function until the <code>value</code> is equal to 0 or 1 in which the <code>value</code> of <code>num</code> will be <code>true</code> or <code>false</code>.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span> {</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>            num <span class="op">=</span> <span class="fu">isEven</span>(num <span class="op">-</span> <span class="dv">2</span>)<span class="op">;</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>        }</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Once the <code>value</code> of <code>num</code> is equal to 0 or 1 then the <code>function</code> will <code>return</code> the <code>value</code> of <code>num</code> which will be either <code>true</code> or <code>false</code>.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a> <span class="cf">return</span> num<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The following is the full code for the <code>function</code> <code>isEven</code> that solves the above problem. Feel free to test it with any number!</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">isEven</span>(num) {</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (num <span class="op">&lt;</span> <span class="dv">0</span>) {</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>        num <span class="op">=</span> <span class="fu">isEven</span>(num <span class="op">+</span> <span class="dv">2</span>)<span class="op">;</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (num <span class="op">==</span> <span class="dv">0</span>) {</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>            num <span class="op">=</span> <span class="kw">true</span><span class="op">;</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>        } <span class="cf">else</span> <span class="cf">if</span> (num <span class="op">==</span> <span class="dv">1</span>) {</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>            num <span class="op">=</span> <span class="kw">false</span><span class="op">;</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>        } <span class="cf">else</span> {</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>            num <span class="op">=</span> <span class="fu">isEven</span>(num <span class="op">-</span> <span class="dv">2</span>)<span class="op">;</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> num<span class="op">;</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
