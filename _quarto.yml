@@ -13,6 +13,9 @@ website:
         text: About
       - href: articles/index.qmd
         text: Articles
+      - href: posts
+        text: Blog
+
 
   sidebar:
     - id: articles

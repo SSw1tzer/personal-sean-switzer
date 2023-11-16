@@ -1,0 +1,8 @@
+---
+title: "Why not a Triangle Dance?"
+description: "Square Dances have to Many steps!"
+author:
+  - name: Sean Switzer
+date: "2023-11-16"
+categories: [lorem ipsum] 
+---

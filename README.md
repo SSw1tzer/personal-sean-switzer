@@ -1,1 +1,1 @@
-Website warmup repository
+CSC 324 final website project repository

@@ -1,0 +1,8 @@
+---
+title: "Did Spanish Conquestidores Fight Dinosaurs? "
+description: "Dinosaurs might've won!"
+author:
+  - name: Sean Switzer
+date: "2023-11-16"
+categories: [lorem ipsum] 
+---
