@@ -1,10 +1,11 @@
 ---
-title: "warmup-sean-switzer"
+title: "Welcome"
 ---
 
 ## About this site
-This site is a warmup project for a future CSC324 website project. 
-The following website will contain articles discussing past homework answers.
+This site is a project for CSC324. 
+The following website will contain articles discussing past homework answers, a blog with two interesting posts
+and a fun game!
 
 This is a Quarto website.
 

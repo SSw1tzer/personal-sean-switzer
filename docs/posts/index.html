@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>warmup-sean-switzer - About</title>
+<title>Sean’s Webpage - The Echo Chamber</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,9 +61,40 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -71,8 +104,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">warmup-sean-switzer</span>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Sean’s Webpage</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -82,19 +115,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles/index.html" rel="" target="">
+    <a class="nav-link active" href="../articles/index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts/index.html" rel="" target="">
+    <a class="nav-link" href="../posts/index.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -108,21 +141,21 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">About</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/index.html">Posts</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./articles/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../articles/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Articles</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -131,13 +164,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./articles/article_01.html" class="sidebar-item-text sidebar-link">
+  <a href="../articles/article_01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A Class Called Group</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./articles/article_02.html" class="sidebar-item-text sidebar-link">
+  <a href="../articles/article_02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Recursive Recursion</span></a>
   </div>
 </li>
@@ -145,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./posts/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../posts/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Posts</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -154,19 +187,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/2023-11-16-conquestidore-dinosaurs/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/2023-11-16-conquestidore-dinosaurs/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Did Spanish Conquestidores Fight Dinosaurs?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/2023-11-16-why-not-a-triangle-dance/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/2023-11-16-why-not-a-triangle-dance/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Why not a Triangle Dance?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/2023-11-16-you-wouldn't/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/2023-11-16-you-wouldn't/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Would You Download A Car?</span></a>
   </div>
 </li>
@@ -178,21 +211,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#introductions" id="toc-introductions" class="nav-link active" data-scroll-target="#introductions">Introductions</a></li>
-  <li><a href="#background-and-today" id="toc-background-and-today" class="nav-link" data-scroll-target="#background-and-today">Background and Today</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="lorem ipsum">lorem ipsum <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">The Echo Chamber</h1>
 </div>
 
 
@@ -207,18 +233,122 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="introductions" class="level2">
-<h2 class="anchored" data-anchor-id="introductions">Introductions</h2>
-<p>My name is Sean Switzer i’m a sophmore at georgetown college and am looking to major in software design and programming.</p>
-</section>
-<section id="background-and-today" class="level2">
-<h2 class="anchored" data-anchor-id="background-and-today">Background and Today</h2>
-<p>I was introduced to programming in a highschool engineering course, in which we started learning the C# language to use with vex robotics programming. Following this introduction I fell in love with programming and the many puzzles it provides, I went on to study javascript in an AP computer science course learning the history of computing, the use of binary, hexadecimal, and ascii. I started working on programs that could be run on mobile devices and programmed a basic time based clicker game. Now I am currently attending my third computer science class CSC 324 and looking to further my studies in the following semesters.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="lorem ipsum" data-listing-date-sort="1700110800000" data-listing-file-modified-sort="1700171296774" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../posts/2023-11-16-conquestidore-dinosaurs/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="../posts/2023-11-16-conquestidore-dinosaurs/index.html">
+<h3 class="no-anchor listing-title">
+Did Spanish Conquestidores Fight Dinosaurs?
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('lorem ipsum'); return false;">
+lorem ipsum
+</div>
+</div>
+<a href="../posts/2023-11-16-conquestidore-dinosaurs/index.html">
+<div class="listing-description">
+<p>Dinosaurs might’ve won!</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../posts/2023-11-16-conquestidore-dinosaurs/index.html">
+<div class="listing-date">
+Nov 16, 2023
+</div>
+<div class="listing-author">
+Sean Switzer
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="lorem ipsum" data-listing-date-sort="1700110800000" data-listing-file-modified-sort="1700171341976" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../posts/2023-11-16-why-not-a-triangle-dance/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="../posts/2023-11-16-why-not-a-triangle-dance/index.html">
+<h3 class="no-anchor listing-title">
+Why not a Triangle Dance?
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('lorem ipsum'); return false;">
+lorem ipsum
+</div>
+</div>
+<a href="../posts/2023-11-16-why-not-a-triangle-dance/index.html">
+<div class="listing-description">
+<p>Square Dances have to Many steps!</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../posts/2023-11-16-why-not-a-triangle-dance/index.html">
+<div class="listing-date">
+Nov 16, 2023
+</div>
+<div class="listing-author">
+Sean Switzer
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="lorem ipsum" data-listing-date-sort="1700110800000" data-listing-file-modified-sort="1700171388853" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../posts/2023-11-16-you-wouldn't/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="../posts/2023-11-16-you-wouldn't/index.html">
+<h3 class="no-anchor listing-title">
+Would You Download A Car?
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('lorem ipsum'); return false;">
+lorem ipsum
+</div>
+</div>
+<a href="../posts/2023-11-16-you-wouldn't/index.html">
+<div class="listing-description">
+<p>I bet you wouldn’t!</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../posts/2023-11-16-you-wouldn't/index.html">
+<div class="listing-date">
+Nov 16, 2023
+</div>
+<div class="listing-author">
+Sean Switzer
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

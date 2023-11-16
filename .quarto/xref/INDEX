@@ -16,5 +16,17 @@
   },
   "articles/index.qmd": {
     "index.html": "22d15bee"
+  },
+  "posts/2023-11-16-conquestidore-dinosaurs/index.qmd": {
+    "index.html": "9340926e"
+  },
+  "posts/2023-11-16-why-not-a-triangle-dance/index.qmd": {
+    "index.html": "70cbbca8"
+  },
+  "posts/2023-11-16-you-wouldn't/index.qmd": {
+    "index.html": "d479b4d4"
+  },
+  "posts/index.qmd": {
+    "index.html": "1bf0d900"
   }
 }

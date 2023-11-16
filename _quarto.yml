@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "warmup-sean-switzer"
-  site-path: "/warmup-sean-switzer/"
+  title: "Sean's Webpage"
+  site-path: "/personal-sean-switzer/"
   navbar:
     left:
       - href: index.qmd
@@ -13,21 +13,28 @@ website:
         text: About
       - href: articles/index.qmd
         text: Articles
-      - href: posts
+      - href: posts/index.qmd
         text: Blog
 
 
   sidebar:
-    - id: articles
-      title: "Articles"
+    - id: none
       style: "docked"
       background: dark
       collapse-level: 2
       contents: 
-        - text: "A Class Called Group"
-          href:  articles/article_01.qmd
-        - text: "Recursive Recursion"
-          href:  articles/article_02.qmd
+      - section: "Articles"
+        href: articles/index.qmd
+        contents: 
+          - text: "A Class Called Group"
+            href:  articles/article_01.qmd
+          - text: "Recursive Recursion"
+            href:  articles/article_02.qmd
+      - section: "Posts"
+        href: posts/index.qmd
+        contents: "posts/*/*.qmd"
+        sort:
+          - "date desc"
 
 format:
   html:
