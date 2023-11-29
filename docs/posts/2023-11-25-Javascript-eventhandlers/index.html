@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sean Switzer">
+<meta name="dcterms.date" content="2023-11-25">
+<meta name="description" content="Back in the days of highschool">
 
-<title>Sean’s Webpage - The Echo Chamber</title>
+<title>Sean’s Webpage - How I worked with javascript event handlers</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,40 +62,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -104,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Sean’s Webpage</span>
     </a>
   </div>
@@ -115,19 +85,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../articles/index.html" rel="" target="" aria-current="page">
+    <a class="nav-link active" href="../../articles/index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../posts/index.html" rel="" target="">
+    <a class="nav-link" href="../../posts/index.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -141,21 +111,21 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/index.html">Posts</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Posts</a></li><li class="breadcrumb-item"><a href="../../posts/2023-11-25-Javascript-eventhandlers/index.html">How I worked with javascript event handlers</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../articles/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../articles/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Articles</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -164,13 +134,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../articles/article_01.html" class="sidebar-item-text sidebar-link">
+  <a href="../../articles/article_01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A Class Called Group</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../articles/article_02.html" class="sidebar-item-text sidebar-link">
+  <a href="../../articles/article_02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Recursive Recursion</span></a>
   </div>
 </li>
@@ -178,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../posts/index.html" class="sidebar-item-text sidebar-link active">
+            <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Posts</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -187,25 +157,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/2023-11-16-conquestidore-dinosaurs/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../posts/2023-11-16-conquestidore-dinosaurs/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Did Spanish Conquestidores Fight Dinosaurs?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/2023-11-16-why-not-a-triangle-dance/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../posts/2023-11-16-why-not-a-triangle-dance/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Why not a Triangle Dance?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/2023-11-16-you-wouldn't/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../posts/2023-11-16-you-wouldn't/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Would You Download A Car?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/2023-11-25-Javascript-eventhandlers/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../posts/2023-11-25-Javascript-eventhandlers/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">How I worked with javascript event handlers</span></a>
   </div>
 </li>
@@ -217,21 +187,49 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="lorem ipsum">lorem ipsum <span class="quarto-category-count">(3)</span></div><div class="category" data-category="substantive">substantive <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#background-info" id="toc-background-info" class="nav-link active" data-scroll-target="#background-info">Background Info</a></li>
+  <li><a href="#the-main-program" id="toc-the-main-program" class="nav-link" data-scroll-target="#the-main-program">The Main Program</a></li>
+  <li><a href="#the-event-handlers" id="toc-the-event-handlers" class="nav-link" data-scroll-target="#the-event-handlers">The Event Handlers</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The Echo Chamber</h1>
-</div>
+<h1 class="title">How I worked with javascript event handlers</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">substantive</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Back in the days of highschool
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sean Switzer </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 25, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -239,157 +237,22 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="background-info" class="level2">
+<h2 class="anchored" data-anchor-id="background-info">Background Info</h2>
+<p>In my highschool years I took an AP computer science course that focused on the history of computer technology and the use of JavaScript. We used a website called code.org to learn and submit our code however this website was linked to my highschool email and thus all the programs I wrote have been lost to time.</p>
+</section>
+<section id="the-main-program" class="level2">
+<h2 class="anchored" data-anchor-id="the-main-program">The Main Program</h2>
+<p>As the program was lost I can’t supply code snippets as example but I will do my best to explain the code and what it intended to do. The program was a mostly simple clicker game, a game where one would click on objects on screen to either collect money, do damage, block attacks whatever the game intended clicks to be. My game in particular used clicks as a method of “attacking” the “enemy” that was on screen. The goal was to click and defeat the enemy in a fast enough time to not take damage as your only had 5 hearts or chances to be hit before you lost. With this goal the program used a time based code to check how much time had passed between clicks and deal damage if the time had reached a certain threshold. That is the basis of the code and its intended use.</p>
+</section>
+<section id="the-event-handlers" class="level2">
+<h2 class="anchored" data-anchor-id="the-event-handlers">The Event Handlers</h2>
+<p>In order to achieve the plan of a clicker game I had to learn and use event handlers. Event Handlers are bits of code that accept user input then do an action based on this input. In the case of this program the evnet handlers looked for a click action from either a mouse or a touchscreen and subtracted health from the enemy on screen if that click happened within the bounds of the enemies image. In order for the event handlers to continue to run the program ran almost entirely within a while loop that monitored the players “health score” which upon hitting zero would disable the while loop and go to a game over screen. This was only one example of the use of event handlers. They are very versatile and are used to accept multiple different types of user inputs in fact every game that youve played, app you’ve used, or website you’ve interacted with has used event handlers to some degree!</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="substantive" data-listing-date-sort="1700888400000" data-listing-file-modified-sort="1700959311540" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="../posts/2023-11-25-Javascript-eventhandlers/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="../posts/2023-11-25-Javascript-eventhandlers/index.html">
-<h3 class="no-anchor listing-title">
-How I worked with javascript event handlers
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('substantive'); return false;">
-substantive
-</div>
-</div>
-<a href="../posts/2023-11-25-Javascript-eventhandlers/index.html">
-<div class="listing-description">
-<p>Back in the days of highschool</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../posts/2023-11-25-Javascript-eventhandlers/index.html">
-<div class="listing-date">
-Nov 25, 2023
-</div>
-<div class="listing-author">
-Sean Switzer
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="lorem ipsum" data-listing-date-sort="1700110800000" data-listing-file-modified-sort="1700959649644" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="../posts/2023-11-16-conquestidore-dinosaurs/index.html"> <img src="../posts/2023-11-16-conquestidore-dinosaurs/banner.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../posts/2023-11-16-conquestidore-dinosaurs/index.html">
-<h3 class="no-anchor listing-title">
-Did Spanish Conquestidores Fight Dinosaurs?
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('lorem ipsum'); return false;">
-lorem ipsum
-</div>
-</div>
-<a href="../posts/2023-11-16-conquestidore-dinosaurs/index.html">
-<div class="listing-description">
-<p>Dinosaurs might’ve won!</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../posts/2023-11-16-conquestidore-dinosaurs/index.html">
-<div class="listing-date">
-Nov 16, 2023
-</div>
-<div class="listing-author">
-Sean Switzer
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="lorem ipsum" data-listing-date-sort="1700110800000" data-listing-file-modified-sort="1700171341976" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="../posts/2023-11-16-why-not-a-triangle-dance/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="../posts/2023-11-16-why-not-a-triangle-dance/index.html">
-<h3 class="no-anchor listing-title">
-Why not a Triangle Dance?
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('lorem ipsum'); return false;">
-lorem ipsum
-</div>
-</div>
-<a href="../posts/2023-11-16-why-not-a-triangle-dance/index.html">
-<div class="listing-description">
-<p>Square Dances have to Many steps!</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../posts/2023-11-16-why-not-a-triangle-dance/index.html">
-<div class="listing-date">
-Nov 16, 2023
-</div>
-<div class="listing-author">
-Sean Switzer
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="lorem ipsum" data-listing-date-sort="1700110800000" data-listing-file-modified-sort="1700171388853" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="../posts/2023-11-16-you-wouldn't/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="../posts/2023-11-16-you-wouldn't/index.html">
-<h3 class="no-anchor listing-title">
-Would You Download A Car?
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('lorem ipsum'); return false;">
-lorem ipsum
-</div>
-</div>
-<a href="../posts/2023-11-16-you-wouldn't/index.html">
-<div class="listing-description">
-<p>I bet you wouldn’t!</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../posts/2023-11-16-you-wouldn't/index.html">
-<div class="listing-date">
-Nov 16, 2023
-</div>
-<div class="listing-author">
-Sean Switzer
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

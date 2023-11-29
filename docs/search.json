@@ -109,7 +109,7 @@
     "href": "posts/index.html",
     "title": "The Echo Chamber",
     "section": "",
-    "text": "Did Spanish Conquestidores Fight Dinosaurs?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nDinosaurs might’ve won!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nWhy not a Triangle Dance?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nSquare Dances have to Many steps!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nWould You Download A Car?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nI bet you wouldn’t!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\nNo matching items"
+    "text": "How I worked with javascript event handlers\n\n\n\n\n\n\n\nsubstantive\n\n\n\n\nBack in the days of highschool\n\n\n\n\n\n\nNov 25, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nDid Spanish Conquestidores Fight Dinosaurs?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nDinosaurs might’ve won!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nWhy not a Triangle Dance?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nSquare Dances have to Many steps!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nWould You Download A Car?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nI bet you wouldn’t!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-11-16-conquestidore-dinosaurs/index.html",
@@ -131,5 +131,33 @@
     "title": "Would You Download A Car?",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor lacinia mi, sit amet sagittis tellus sollicitudin ut. Vivamus gravida posuere risus. Nam a nisi ac mi elementum tincidunt. Nulla dignissim tempus fringilla. Nunc dui risus, ultricies ut auctor eget, bibendum sit amet ligula. Duis interdum scelerisque enim in placerat. Donec ut fermentum odio. Vivamus vel neque tincidunt, lacinia tellus at, interdum quam. Vivamus vehicula eleifend rutrum.\nProin a convallis ante. Phasellus sagittis quam eget massa interdum ullamcorper. Nulla vestibulum nec diam eu aliquet. Nunc sed neque purus. In vel tempus mi. Maecenas commodo, lorem sit amet rhoncus laoreet, est felis pharetra ante, eu luctus massa velit non felis. Aenean in dolor eget mauris lacinia condimentum. Donec at orci nec sem laoreet lacinia at in velit. Phasellus consectetur nunc nibh, in vulputate velit auctor at. Duis at dui eros. Vivamus vehicula purus magna, ut imperdiet eros iaculis at. Maecenas quis magna vitae nibh pulvinar semper id eget nibh.\nQuisque a condimentum neque. Donec tellus lorem, varius ac pretium quis, mattis vitae odio. Duis vestibulum enim sapien, at dictum elit consectetur quis. Suspendisse risus turpis, laoreet eget felis eget, tristique efficitur velit. Fusce varius purus sem, in mollis est cursus nec. Phasellus eget efficitur erat. Vivamus finibus quam quis mauris pretium accumsan. Nullam sagittis dignissim imperdiet. Aliquam a tincidunt metus. Fusce sagittis venenatis nisi in posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut feugiat justo quam, nec dignissim dui ultrices eget."
+  },
+  {
+    "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html",
+    "href": "posts/2023-11-25-Javascript-eventhandlers/index.html",
+    "title": "How I worked with javascript event handlers",
+    "section": "",
+    "text": "In my highschool years I took an AP computer science course that focused on the history of computer technology and the use of JavaScript. We used a website called code.org to learn and submit our code however this website was linked to my highschool email and thus all the programs I wrote have been lost to time."
+  },
+  {
+    "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html#background-info",
+    "href": "posts/2023-11-25-Javascript-eventhandlers/index.html#background-info",
+    "title": "How I worked with javascript event handlers",
+    "section": "",
+    "text": "In my highschool years I took an AP computer science course that focused on the history of computer technology and the use of JavaScript. We used a website called code.org to learn and submit our code however this website was linked to my highschool email and thus all the programs I wrote have been lost to time."
+  },
+  {
+    "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html#the-main-program",
+    "href": "posts/2023-11-25-Javascript-eventhandlers/index.html#the-main-program",
+    "title": "How I worked with javascript event handlers",
+    "section": "The Main Program",
+    "text": "The Main Program\nAs the program was lost I can’t supply code snippets as example but I will do my best to explain the code and what it intended to do. The program was a mostly simple clicker game, a game where one would click on objects on screen to either collect money, do damage, block attacks whatever the game intended clicks to be. My game in particular used clicks as a method of “attacking” the “enemy” that was on screen. The goal was to click and defeat the enemy in a fast enough time to not take damage as your only had 5 hearts or chances to be hit before you lost. With this goal the program used a time based code to check how much time had passed between clicks and deal damage if the time had reached a certain threshold. That is the basis of the code and its intended use."
+  },
+  {
+    "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html#the-event-handlers",
+    "href": "posts/2023-11-25-Javascript-eventhandlers/index.html#the-event-handlers",
+    "title": "How I worked with javascript event handlers",
+    "section": "The Event Handlers",
+    "text": "The Event Handlers\nIn order to achieve the plan of a clicker game I had to learn and use event handlers. Event Handlers are bits of code that accept user input then do an action based on this input. In the case of this program the evnet handlers looked for a click action from either a mouse or a touchscreen and subtracted health from the enemy on screen if that click happened within the bounds of the enemies image. In order for the event handlers to continue to run the program ran almost entirely within a while loop that monitored the players “health score” which upon hitting zero would disable the while loop and go to a game over screen. This was only one example of the use of event handlers. They are very versatile and are used to accept multiple different types of user inputs in fact every game that youve played, app you’ve used, or website you’ve interacted with has used event handlers to some degree!"
   }
 ]

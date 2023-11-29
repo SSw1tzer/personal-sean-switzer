@@ -1,0 +1,21 @@
+---
+title: "How I worked with javascript event handlers"
+description: "Back in the days of highschool"
+author:
+  - name: Sean Switzer
+date: "2023-11-25"
+categories: [substantive] 
+---
+
+## Background Info
+
+In my highschool years I took an AP computer science course that focused on the history of computer technology and 
+the use of JavaScript. We used a website called code.org to learn and submit our code however this website was linked to my highschool email and thus all the programs I wrote have been lost to time.
+
+## The Main Program
+
+As the program was lost I can't supply code snippets as example but I will do my best to explain the code and what it intended to do. The program was a mostly simple clicker game, a game where one would click on objects on screen to either collect money, do damage, block attacks whatever the game intended clicks to be. My game in particular used clicks as a method of "attacking" the "enemy" that was on screen. The goal was to click and defeat the enemy in a fast enough time to not take damage as your only had 5 hearts or chances to be hit before you lost. With this goal the program used a time based code to check how much time had passed between clicks and deal damage if the time had reached a certain threshold. That is the basis of the code and its intended use.
+
+## The Event Handlers
+
+In order to achieve the plan of a clicker game I had to learn and use event handlers. Event Handlers are bits of code that accept user input then do an action based on this input. In the case of this program the evnet handlers looked for a click action from either a mouse or a touchscreen and subtracted health from the enemy on screen if that click happened within the bounds of the enemies image. In order for the event handlers to continue to run the program ran almost entirely within a while loop that monitored the players "health score" which upon hitting zero would disable the while loop and go to a game over screen. This was only one example of the use of event handlers. They are very versatile and are used to accept multiple different types of user inputs in fact every game that youve played, app you've used, or website you've interacted with has used event handlers to some degree!

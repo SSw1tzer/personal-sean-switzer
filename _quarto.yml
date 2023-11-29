@@ -20,7 +20,7 @@ website:
   sidebar:
     - id: none
       style: "docked"
-      background: dark
+      background: primary
       collapse-level: 2
       contents: 
       - section: "Articles"

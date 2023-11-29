@@ -28,5 +28,8 @@
   },
   "posts/index.qmd": {
     "index.html": "1bf0d900"
+  },
+  "posts/2023-11-25-Javascript-eventhandlers/index.qmd": {
+    "index.html": "96e1e671"
   }
 }
