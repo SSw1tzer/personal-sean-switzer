@@ -1,3 +1,14 @@
 /* css styles */
+/* main theme for website*/
 
+/*-- scss:defaults --*/
 
+  body {
+    background-image: url("https://cache.desktopnexus.com/thumbseg/2361/2361681-bigthumbnail.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: center center;*/
+    /*background-attachment: fixed;*/
+  }
+
+  /* "https://freedesignfile.com/444163-magical-nature-cave-interior-stock-photo-08/" */

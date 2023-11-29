@@ -9,4 +9,11 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: false
+format:
+  html:
+    theme: theme2.css
+    fontcolor: "#FFFFFF"
+    linkcolor: "#ccff99"
+    css: styles.css
+    toc: true
 ---

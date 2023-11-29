@@ -4,9 +4,9 @@ title: "Welcome"
 
 ## About this site
 This site is a project for CSC324. 
-The following website will contain articles discussing past homework answers, a blog with two interesting posts
-and a fun game!
+The following website will contain articles discussing past homework answers, my process of creating nthe theme of this website, and a blog with some interesting posts!
 
-This is a Quarto website.
+
+This website was made with Quarto!
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

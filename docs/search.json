@@ -1,59 +1,31 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "The Echo Chamber",
     "section": "",
-    "text": "This site is a project for CSC324. The following website will contain articles discussing past homework answers, a blog with two interesting posts and a fun game!\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "How I worked with javascript event handlers\n\n\n\n\n\n\n\nsubstantive\n\n\n\n\nBack in the days of highschool\n\n\n\n\n\n\nNov 25, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nDid Spanish Conquestidores Fight Dinosaurs?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nDinosaurs might’ve won!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nWhy not a Triangle Dance?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nSquare Dances have to Many steps!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nWould You Download A Car?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nI bet you wouldn’t!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#about-this-site",
-    "href": "index.html#about-this-site",
-    "title": "Welcome",
+    "objectID": "posts/2023-11-16-you-wouldn't/index.html",
+    "href": "posts/2023-11-16-you-wouldn't/index.html",
+    "title": "Would You Download A Car?",
     "section": "",
-    "text": "This site is a project for CSC324. The following website will contain articles discussing past homework answers, a blog with two interesting posts and a fun game!\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor lacinia mi, sit amet sagittis tellus sollicitudin ut. Vivamus gravida posuere risus. Nam a nisi ac mi elementum tincidunt. Nulla dignissim tempus fringilla. Nunc dui risus, ultricies ut auctor eget, bibendum sit amet ligula. Duis interdum scelerisque enim in placerat. Donec ut fermentum odio. Vivamus vel neque tincidunt, lacinia tellus at, interdum quam. Vivamus vehicula eleifend rutrum.\nProin a convallis ante. Phasellus sagittis quam eget massa interdum ullamcorper. Nulla vestibulum nec diam eu aliquet. Nunc sed neque purus. In vel tempus mi. Maecenas commodo, lorem sit amet rhoncus laoreet, est felis pharetra ante, eu luctus massa velit non felis. Aenean in dolor eget mauris lacinia condimentum. Donec at orci nec sem laoreet lacinia at in velit. Phasellus consectetur nunc nibh, in vulputate velit auctor at. Duis at dui eros. Vivamus vehicula purus magna, ut imperdiet eros iaculis at. Maecenas quis magna vitae nibh pulvinar semper id eget nibh.\nQuisque a condimentum neque. Donec tellus lorem, varius ac pretium quis, mattis vitae odio. Duis vestibulum enim sapien, at dictum elit consectetur quis. Suspendisse risus turpis, laoreet eget felis eget, tristique efficitur velit. Fusce varius purus sem, in mollis est cursus nec. Phasellus eget efficitur erat. Vivamus finibus quam quis mauris pretium accumsan. Nullam sagittis dignissim imperdiet. Aliquam a tincidunt metus. Fusce sagittis venenatis nisi in posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut feugiat justo quam, nec dignissim dui ultrices eget."
   },
   {
-    "objectID": "articles/article_02.html",
-    "href": "articles/article_02.html",
-    "title": "Recursive Recursion",
+    "objectID": "posts/2023-11-16-conquestidore-dinosaurs/index.html",
+    "href": "posts/2023-11-16-conquestidore-dinosaurs/index.html",
+    "title": "Did Spanish Conquestidores Fight Dinosaurs?",
     "section": "",
-    "text": "The following is the problem statement from chapter 3 of the text book Eloquent JavaScript 3rd edition (2018).\n\nWe’ve seen that % (the remainder operator) can be used to test whether a number is even or odd by using % 2 to see whether it’s divisible by two. Here’s another way to define whether a positive whole number is even or odd:\nZero is even.\nOne is odd.\nFor any other number N, its evenness is the same as N - 2.\nDefine a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean.\n\nThis solution looks to answer this problem in the best way possible."
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales neque dui, sit amet dictum metus sodales varius. Pellentesque finibus ante at dolor maximus pellentesque. Aenean nec sapien congue, rhoncus tellus et, volutpat nulla. Ut pellentesque pulvinar metus et mattis. Aliquam nunc quam, viverra vitae commodo in, accumsan porttitor est. Donec pulvinar ante libero, ac tristique tortor auctor ut. Suspendisse potenti. Aliquam ac facilisis tellus. Maecenas arcu elit, fringilla vel pretium sit amet, blandit eu erat. In fermentum elementum eros sit amet tristique. Nam id urna ac turpis iaculis euismod vel vitae enim.\nVivamus accumsan nisl et magna vehicula tempor. Sed fermentum in purus ut consectetur. Ut eget luctus dolor, sit amet sollicitudin mauris. Donec eget purus arcu. Donec vulputate consequat urna eu sollicitudin. Donec urna justo, euismod a finibus vitae, tincidunt a velit. Maecenas dolor erat, fermentum sit amet velit id, dignissim scelerisque tortor. Maecenas eu aliquet orci.\nSed orci turpis, tincidunt id egestas quis, semper eget libero. Morbi consectetur nisl vulputate maximus ultricies. Vivamus vehicula faucibus purus, a pulvinar eros pharetra eget. Ut hendrerit pharetra vestibulum. Vestibulum id nibh augue. Mauris at lacus in nisi fringilla posuere eget non urna. Suspendisse potenti. Aliquam hendrerit fermentum metus non sollicitudin. Ut nec diam ac ante posuere vestibulum convallis at ligula. Etiam enim sem, auctor ut lacus quis, mollis iaculis nisl. Aenean in risus lacus. Morbi eget lacinia nisi. Nulla ornare justo eu metus porttitor dictum. Phasellus ultrices tellus at lectus rutrum pulvinar."
   },
   {
-    "objectID": "articles/article_02.html#creating-the-function",
-    "href": "articles/article_02.html#creating-the-function",
-    "title": "Recursive Recursion",
-    "section": "Creating The Function",
-    "text": "Creating The Function\nInitially we must create the function and name it isEven as directed then we need to give it the value num. We can do this as displayed below.\nfunction isEven(num)"
-  },
-  {
-    "objectID": "articles/article_02.html#the-function-body",
-    "href": "articles/article_02.html#the-function-body",
-    "title": "Recursive Recursion",
-    "section": "The Function Body",
-    "text": "The Function Body\nWith the name and the function initialized we now need to work on the body of the function. The function body is the main process that will be used when the function is called.\nFirst we’ll start with an if statement, this first statement will check to see if the value of num is less than 0, if it is then it will change the value of num to be equal to isEven(num + 2) this enters into a recursive occurence where the value of num will continue to be increased by 2 and then re-entered into the isEven function until num is greater than 0.\n if (num &lt; 0) {\n        num = isEven(num + 2);\n    }\nOnce the value of num is greater than 0 the function will enter its first else statement. In which is held another if - else if - else statement.\nThe first part of this statement being an if statement that will check if the value of num is equal to 0, if it is then the value of num will be set to true.\n if (num == 0) {\n            num = true;\n }\nOtherwise the else if statement will check if the value of num equals 1, if this is true then num will be set to false. If both if statements are false then the function will continue to the final else statement.\nelse if (num == 1) {\n            num = false;\n        }\nIn the final else statement we see another recursive process in which the value of num is set to equal the value of isEven(num - 2) which will decrease the value of num by 2 then re-enter that value into the function until the value is equal to 0 or 1 in which the value of num will be true or false.\nelse {\n            num = isEven(num - 2);\n        }\nOnce the value of num is equal to 0 or 1 then the function will return the value of num which will be either true or false.\n return num;\nThe following is the full code for the function isEven that solves the above problem. Feel free to test it with any number!\nfunction isEven(num) {\n    if (num &lt; 0) {\n        num = isEven(num + 2);\n    } else {\n        if (num == 0) {\n            num = true;\n        } else if (num == 1) {\n            num = false;\n        } else {\n            num = isEven(num - 2);\n        }\n    }\n    return num;\n}"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "articles/index.html",
+    "href": "articles/index.html",
+    "title": "Articles",
     "section": "",
-    "text": "My name is Sean Switzer i’m a sophmore at georgetown college and am looking to major in software design and programming."
-  },
-  {
-    "objectID": "about.html#introductions",
-    "href": "about.html#introductions",
-    "title": "About",
-    "section": "",
-    "text": "My name is Sean Switzer i’m a sophmore at georgetown college and am looking to major in software design and programming."
-  },
-  {
-    "objectID": "about.html#background-and-today",
-    "href": "about.html#background-and-today",
-    "title": "About",
-    "section": "Background and Today",
-    "text": "Background and Today\nI was introduced to programming in a highschool engineering course, in which we started learning the C# language to use with vex robotics programming. Following this introduction I fell in love with programming and the many puzzles it provides, I went on to study javascript in an AP computer science course learning the history of computing, the use of binary, hexadecimal, and ascii. I started working on programs that could be run on mobile devices and programmed a basic time based clicker game. Now I am currently attending my third computer science class CSC 324 and looking to further my studies in the following semesters."
+    "text": "These two articles go in depth with my solutions to two of the homework assignments I had this semester.\nThe first article, “A Class called Group”, discusses the solution to a problem that uses a group and it’s methods to answer the problem.\nThe second article, “Recursive Recursion”, displays the use of recursive functions to solve the problem given in the homework assignment."
   },
   {
     "objectID": "articles/article_01.html",
@@ -98,25 +70,60 @@
     "text": "The Has Method\nFinally we have the has method which will check to see if the object exists within the array.\nThis method is fairly simple as it uses a for loop like the add method to check if the object is included with an if statement, if it is it will set included to true else inlcuded will be false it will then return the variable “inlcuded”.\n    has(object) {\n        let array = this.array;\n        let included = false;\n        for (let i = 0; i &lt; array.length; i++) {\n            if (array[i] == object) {\n                included = true;\n            }\n        }\n        return included;\n    }"
   },
   {
-    "objectID": "articles/index.html",
-    "href": "articles/index.html",
-    "title": "Articles",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "These two articles go in depth with my solutions to two of the homework assignments I had this semester.\nThe first article, “A Class called Group”, discusses the solution to a problem that uses a group and it’s methods to answer the problem.\nThe second article, “Recursive Recursion”, displays the use of recursive functions to solve the problem given in the homework assignment."
+    "text": "My name is Sean Switzer i’m a sophmore at georgetown college and am looking to major in software design and programming."
   },
   {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "The Echo Chamber",
+    "objectID": "about.html#introductions",
+    "href": "about.html#introductions",
+    "title": "About",
     "section": "",
-    "text": "How I worked with javascript event handlers\n\n\n\n\n\n\n\nsubstantive\n\n\n\n\nBack in the days of highschool\n\n\n\n\n\n\nNov 25, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nDid Spanish Conquestidores Fight Dinosaurs?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nDinosaurs might’ve won!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nWhy not a Triangle Dance?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nSquare Dances have to Many steps!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nWould You Download A Car?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nI bet you wouldn’t!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\nNo matching items"
+    "text": "My name is Sean Switzer i’m a sophmore at georgetown college and am looking to major in software design and programming."
   },
   {
-    "objectID": "posts/2023-11-16-conquestidore-dinosaurs/index.html",
-    "href": "posts/2023-11-16-conquestidore-dinosaurs/index.html",
-    "title": "Did Spanish Conquestidores Fight Dinosaurs?",
+    "objectID": "about.html#background-and-today",
+    "href": "about.html#background-and-today",
+    "title": "About",
+    "section": "Background and Today",
+    "text": "Background and Today\nI was introduced to programming in a highschool engineering course, in which we started learning the C# language to use with vex robotics programming. Following this introduction I fell in love with programming and the many puzzles it provides, I went on to study javascript in an AP computer science course learning the history of computing, the use of binary, hexadecimal, and ascii. I started working on programs that could be run on mobile devices and programmed a basic time based clicker game. Now I am currently attending my third computer science class CSC 324 and looking to further my studies in the following semesters."
+  },
+  {
+    "objectID": "articles/article_02.html",
+    "href": "articles/article_02.html",
+    "title": "Recursive Recursion",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales neque dui, sit amet dictum metus sodales varius. Pellentesque finibus ante at dolor maximus pellentesque. Aenean nec sapien congue, rhoncus tellus et, volutpat nulla. Ut pellentesque pulvinar metus et mattis. Aliquam nunc quam, viverra vitae commodo in, accumsan porttitor est. Donec pulvinar ante libero, ac tristique tortor auctor ut. Suspendisse potenti. Aliquam ac facilisis tellus. Maecenas arcu elit, fringilla vel pretium sit amet, blandit eu erat. In fermentum elementum eros sit amet tristique. Nam id urna ac turpis iaculis euismod vel vitae enim.\nVivamus accumsan nisl et magna vehicula tempor. Sed fermentum in purus ut consectetur. Ut eget luctus dolor, sit amet sollicitudin mauris. Donec eget purus arcu. Donec vulputate consequat urna eu sollicitudin. Donec urna justo, euismod a finibus vitae, tincidunt a velit. Maecenas dolor erat, fermentum sit amet velit id, dignissim scelerisque tortor. Maecenas eu aliquet orci.\nSed orci turpis, tincidunt id egestas quis, semper eget libero. Morbi consectetur nisl vulputate maximus ultricies. Vivamus vehicula faucibus purus, a pulvinar eros pharetra eget. Ut hendrerit pharetra vestibulum. Vestibulum id nibh augue. Mauris at lacus in nisi fringilla posuere eget non urna. Suspendisse potenti. Aliquam hendrerit fermentum metus non sollicitudin. Ut nec diam ac ante posuere vestibulum convallis at ligula. Etiam enim sem, auctor ut lacus quis, mollis iaculis nisl. Aenean in risus lacus. Morbi eget lacinia nisi. Nulla ornare justo eu metus porttitor dictum. Phasellus ultrices tellus at lectus rutrum pulvinar."
+    "text": "The following is the problem statement from chapter 3 of the text book Eloquent JavaScript 3rd edition (2018).\n\nWe’ve seen that % (the remainder operator) can be used to test whether a number is even or odd by using % 2 to see whether it’s divisible by two. Here’s another way to define whether a positive whole number is even or odd:\nZero is even.\nOne is odd.\nFor any other number N, its evenness is the same as N - 2.\nDefine a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean.\n\nThis solution looks to answer this problem in the best way possible."
+  },
+  {
+    "objectID": "articles/article_02.html#creating-the-function",
+    "href": "articles/article_02.html#creating-the-function",
+    "title": "Recursive Recursion",
+    "section": "Creating The Function",
+    "text": "Creating The Function\nInitially we must create the function and name it isEven as directed then we need to give it the value num. We can do this as displayed below.\nfunction isEven(num)"
+  },
+  {
+    "objectID": "articles/article_02.html#the-function-body",
+    "href": "articles/article_02.html#the-function-body",
+    "title": "Recursive Recursion",
+    "section": "The Function Body",
+    "text": "The Function Body\nWith the name and the function initialized we now need to work on the body of the function. The function body is the main process that will be used when the function is called.\nFirst we’ll start with an if statement, this first statement will check to see if the value of num is less than 0, if it is then it will change the value of num to be equal to isEven(num + 2) this enters into a recursive occurence where the value of num will continue to be increased by 2 and then re-entered into the isEven function until num is greater than 0.\n if (num &lt; 0) {\n        num = isEven(num + 2);\n    }\nOnce the value of num is greater than 0 the function will enter its first else statement. In which is held another if - else if - else statement.\nThe first part of this statement being an if statement that will check if the value of num is equal to 0, if it is then the value of num will be set to true.\n if (num == 0) {\n            num = true;\n }\nOtherwise the else if statement will check if the value of num equals 1, if this is true then num will be set to false. If both if statements are false then the function will continue to the final else statement.\nelse if (num == 1) {\n            num = false;\n        }\nIn the final else statement we see another recursive process in which the value of num is set to equal the value of isEven(num - 2) which will decrease the value of num by 2 then re-enter that value into the function until the value is equal to 0 or 1 in which the value of num will be true or false.\nelse {\n            num = isEven(num - 2);\n        }\nOnce the value of num is equal to 0 or 1 then the function will return the value of num which will be either true or false.\n return num;\nThe following is the full code for the function isEven that solves the above problem. Feel free to test it with any number!\nfunction isEven(num) {\n    if (num &lt; 0) {\n        num = isEven(num + 2);\n    } else {\n        if (num == 0) {\n            num = true;\n        } else if (num == 1) {\n            num = false;\n        } else {\n            num = isEven(num - 2);\n        }\n    }\n    return num;\n}"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "This site is a project for CSC324. The following website will contain articles discussing past homework answers, my process of creating nthe theme of this website, and a blog with some interesting posts!\nThis website was made with Quarto!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#about-this-site",
+    "href": "index.html#about-this-site",
+    "title": "Welcome",
+    "section": "",
+    "text": "This site is a project for CSC324. The following website will contain articles discussing past homework answers, my process of creating nthe theme of this website, and a blog with some interesting posts!\nThis website was made with Quarto!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "posts/2023-11-16-why-not-a-triangle-dance/index.html",
@@ -124,13 +131,6 @@
     "title": "Why not a Triangle Dance?",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan posuere eros non lobortis. Duis in ipsum quis felis imperdiet commodo et in nisi. Mauris ac dapibus velit, ut euismod justo. Proin sed magna ante. Nullam porta libero mauris. Duis efficitur velit eget leo imperdiet venenatis. Suspendisse at mollis sem. Ut iaculis pulvinar diam, in vehicula mi. Vivamus non tristique sapien. Nunc molestie ex interdum libero dapibus, ut dapibus neque cursus. In egestas erat lorem, et tempor elit varius a. Proin at egestas odio. Donec malesuada, odio nec molestie convallis, quam nulla tincidunt purus, a mattis velit mi nec massa. Vivamus condimentum urna odio, eu luctus eros fringilla eget. In consequat vehicula suscipit.\nNam leo nisi, tempor ut tortor id, laoreet accumsan purus. Sed eget mauris varius quam molestie tincidunt varius vitae elit. Quisque faucibus sapien orci. Pellentesque quis laoreet mi. In quis nisi posuere, porta dolor a, imperdiet eros. Pellentesque scelerisque venenatis felis, blandit condimentum augue porttitor at. Donec non sodales nisi. Morbi vitae fermentum mi, ac suscipit quam. Proin egestas, neque sit amet semper porttitor, libero sapien facilisis risus, at pharetra orci nibh at turpis. Aenean vel eros bibendum, dictum purus eu, commodo libero. Phasellus eros augue, auctor non volutpat non, scelerisque at neque. Maecenas eget rhoncus sapien. Integer non nibh dictum, malesuada orci non, laoreet dolor. Nam a nisi mauris. Fusce vitae enim iaculis, eleifend ligula eget, semper velit.\nFusce et dictum nulla, nec ultrices ante. Fusce imperdiet nulla sit amet tristique porta. Vestibulum condimentum diam a lorem viverra, nec imperdiet massa interdum. Integer nec libero sed dui aliquam aliquam. Suspendisse ornare est sed diam sodales faucibus. Aenean tempor a diam vel consectetur. Cras placerat non est id eleifend."
-  },
-  {
-    "objectID": "posts/2023-11-16-you-wouldn't/index.html",
-    "href": "posts/2023-11-16-you-wouldn't/index.html",
-    "title": "Would You Download A Car?",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor lacinia mi, sit amet sagittis tellus sollicitudin ut. Vivamus gravida posuere risus. Nam a nisi ac mi elementum tincidunt. Nulla dignissim tempus fringilla. Nunc dui risus, ultricies ut auctor eget, bibendum sit amet ligula. Duis interdum scelerisque enim in placerat. Donec ut fermentum odio. Vivamus vel neque tincidunt, lacinia tellus at, interdum quam. Vivamus vehicula eleifend rutrum.\nProin a convallis ante. Phasellus sagittis quam eget massa interdum ullamcorper. Nulla vestibulum nec diam eu aliquet. Nunc sed neque purus. In vel tempus mi. Maecenas commodo, lorem sit amet rhoncus laoreet, est felis pharetra ante, eu luctus massa velit non felis. Aenean in dolor eget mauris lacinia condimentum. Donec at orci nec sem laoreet lacinia at in velit. Phasellus consectetur nunc nibh, in vulputate velit auctor at. Duis at dui eros. Vivamus vehicula purus magna, ut imperdiet eros iaculis at. Maecenas quis magna vitae nibh pulvinar semper id eget nibh.\nQuisque a condimentum neque. Donec tellus lorem, varius ac pretium quis, mattis vitae odio. Duis vestibulum enim sapien, at dictum elit consectetur quis. Suspendisse risus turpis, laoreet eget felis eget, tristique efficitur velit. Fusce varius purus sem, in mollis est cursus nec. Phasellus eget efficitur erat. Vivamus finibus quam quis mauris pretium accumsan. Nullam sagittis dignissim imperdiet. Aliquam a tincidunt metus. Fusce sagittis venenatis nisi in posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut feugiat justo quam, nec dignissim dui ultrices eget."
   },
   {
     "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html",

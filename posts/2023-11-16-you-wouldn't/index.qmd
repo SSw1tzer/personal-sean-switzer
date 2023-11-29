@@ -5,6 +5,7 @@ author:
   - name: Sean Switzer
 date: "2023-11-16"
 categories: [lorem ipsum] 
+image: banner.PNG
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor lacinia mi, sit amet sagittis tellus sollicitudin ut. Vivamus gravida posuere risus. Nam a nisi ac mi elementum tincidunt. Nulla dignissim tempus fringilla. Nunc dui risus, ultricies ut auctor eget, bibendum sit amet ligula. Duis interdum scelerisque enim in placerat. Donec ut fermentum odio. Vivamus vel neque tincidunt, lacinia tellus at, interdum quam. Vivamus vehicula eleifend rutrum.

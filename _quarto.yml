@@ -6,6 +6,9 @@ website:
   title: "Sean's Webpage"
   site-path: "/personal-sean-switzer/"
   navbar:
+    logo: /images/wolf.png
+    background: transparent
+    foreground: "#FFFFFF"
     left:
       - href: index.qmd
         text: Home
@@ -20,7 +23,8 @@ website:
   sidebar:
     - id: none
       style: "docked"
-      background: primary
+      background: transparent
+      foreground: "#FFFFFF"
       collapse-level: 2
       contents: 
       - section: "Articles"
@@ -38,9 +42,12 @@ website:
 
 format:
   html:
-    theme: cyborg
+    theme: styles.css
+    fontcolor: "#FFFFFF"
+    linkcolor: "#ccff99"
     css: styles.css
     toc: true
+
 
 
 

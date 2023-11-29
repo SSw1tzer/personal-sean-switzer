@@ -5,6 +5,7 @@ author:
   - name: Sean Switzer
 date: "2023-11-25"
 categories: [substantive] 
+image: banner.PNG
 ---
 
 ## Background Info
