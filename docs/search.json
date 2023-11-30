@@ -4,28 +4,91 @@
     "href": "posts/index.html",
     "title": "The Echo Chamber",
     "section": "",
-    "text": "How I worked with javascript event handlers\n\n\n\n\n\n\n\nsubstantive\n\n\n\n\nBack in the days of highschool\n\n\n\n\n\n\nNov 25, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nDid Spanish Conquestidores Fight Dinosaurs?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nDinosaurs might’ve won!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nWhy not a Triangle Dance?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nSquare Dances have to Many steps!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nWould You Download A Car?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nI bet you wouldn’t!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\nNo matching items"
+    "text": "Have you ever attempted to mod a game?\n\n\n\n\n\n\n\nsubstantive\n\n\n\n\nA Discussion of the aspect of video game modification\n\n\n\n\n\n\nNov 29, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nHow I worked with javascript event handlers\n\n\n\n\n\n\n\nsubstantive\n\n\n\n\nBack in the days of highschool\n\n\n\n\n\n\nNov 25, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nDid Spanish Conquestidores Fight Dinosaurs?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nDinosaurs might’ve won!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nWhy not a Triangle Dance?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nSquare Dances have to Many steps!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\n  \n\n\n\n\nWould You Download A Car?\n\n\n\n\n\n\n\nlorem ipsum\n\n\n\n\nI bet you wouldn’t!\n\n\n\n\n\n\nNov 16, 2023\n\n\nSean Switzer\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/2023-11-16-you-wouldn't/index.html",
-    "href": "posts/2023-11-16-you-wouldn't/index.html",
-    "title": "Would You Download A Car?",
+    "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html",
+    "href": "posts/2023-11-25-Javascript-eventhandlers/index.html",
+    "title": "How I worked with javascript event handlers",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor lacinia mi, sit amet sagittis tellus sollicitudin ut. Vivamus gravida posuere risus. Nam a nisi ac mi elementum tincidunt. Nulla dignissim tempus fringilla. Nunc dui risus, ultricies ut auctor eget, bibendum sit amet ligula. Duis interdum scelerisque enim in placerat. Donec ut fermentum odio. Vivamus vel neque tincidunt, lacinia tellus at, interdum quam. Vivamus vehicula eleifend rutrum.\nProin a convallis ante. Phasellus sagittis quam eget massa interdum ullamcorper. Nulla vestibulum nec diam eu aliquet. Nunc sed neque purus. In vel tempus mi. Maecenas commodo, lorem sit amet rhoncus laoreet, est felis pharetra ante, eu luctus massa velit non felis. Aenean in dolor eget mauris lacinia condimentum. Donec at orci nec sem laoreet lacinia at in velit. Phasellus consectetur nunc nibh, in vulputate velit auctor at. Duis at dui eros. Vivamus vehicula purus magna, ut imperdiet eros iaculis at. Maecenas quis magna vitae nibh pulvinar semper id eget nibh.\nQuisque a condimentum neque. Donec tellus lorem, varius ac pretium quis, mattis vitae odio. Duis vestibulum enim sapien, at dictum elit consectetur quis. Suspendisse risus turpis, laoreet eget felis eget, tristique efficitur velit. Fusce varius purus sem, in mollis est cursus nec. Phasellus eget efficitur erat. Vivamus finibus quam quis mauris pretium accumsan. Nullam sagittis dignissim imperdiet. Aliquam a tincidunt metus. Fusce sagittis venenatis nisi in posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut feugiat justo quam, nec dignissim dui ultrices eget."
+    "text": "In my highschool years I took an AP computer science course that focused on the history of computer technology and the use of JavaScript. We used a website called code.org to learn and submit our code however this website was linked to my highschool email and thus all the programs I wrote have been lost to time."
   },
   {
-    "objectID": "posts/2023-11-16-conquestidore-dinosaurs/index.html",
-    "href": "posts/2023-11-16-conquestidore-dinosaurs/index.html",
-    "title": "Did Spanish Conquestidores Fight Dinosaurs?",
+    "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html#background-info",
+    "href": "posts/2023-11-25-Javascript-eventhandlers/index.html#background-info",
+    "title": "How I worked with javascript event handlers",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales neque dui, sit amet dictum metus sodales varius. Pellentesque finibus ante at dolor maximus pellentesque. Aenean nec sapien congue, rhoncus tellus et, volutpat nulla. Ut pellentesque pulvinar metus et mattis. Aliquam nunc quam, viverra vitae commodo in, accumsan porttitor est. Donec pulvinar ante libero, ac tristique tortor auctor ut. Suspendisse potenti. Aliquam ac facilisis tellus. Maecenas arcu elit, fringilla vel pretium sit amet, blandit eu erat. In fermentum elementum eros sit amet tristique. Nam id urna ac turpis iaculis euismod vel vitae enim.\nVivamus accumsan nisl et magna vehicula tempor. Sed fermentum in purus ut consectetur. Ut eget luctus dolor, sit amet sollicitudin mauris. Donec eget purus arcu. Donec vulputate consequat urna eu sollicitudin. Donec urna justo, euismod a finibus vitae, tincidunt a velit. Maecenas dolor erat, fermentum sit amet velit id, dignissim scelerisque tortor. Maecenas eu aliquet orci.\nSed orci turpis, tincidunt id egestas quis, semper eget libero. Morbi consectetur nisl vulputate maximus ultricies. Vivamus vehicula faucibus purus, a pulvinar eros pharetra eget. Ut hendrerit pharetra vestibulum. Vestibulum id nibh augue. Mauris at lacus in nisi fringilla posuere eget non urna. Suspendisse potenti. Aliquam hendrerit fermentum metus non sollicitudin. Ut nec diam ac ante posuere vestibulum convallis at ligula. Etiam enim sem, auctor ut lacus quis, mollis iaculis nisl. Aenean in risus lacus. Morbi eget lacinia nisi. Nulla ornare justo eu metus porttitor dictum. Phasellus ultrices tellus at lectus rutrum pulvinar."
+    "text": "In my highschool years I took an AP computer science course that focused on the history of computer technology and the use of JavaScript. We used a website called code.org to learn and submit our code however this website was linked to my highschool email and thus all the programs I wrote have been lost to time."
   },
   {
-    "objectID": "articles/index.html",
-    "href": "articles/index.html",
-    "title": "Articles",
+    "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html#the-main-program",
+    "href": "posts/2023-11-25-Javascript-eventhandlers/index.html#the-main-program",
+    "title": "How I worked with javascript event handlers",
+    "section": "The Main Program",
+    "text": "The Main Program\nAs the program was lost I can’t supply code snippets as example but I will do my best to explain the code and what it intended to do. The program was a mostly simple clicker game, a game where one would click on objects on screen to either collect money, do damage, block attacks whatever the game intended clicks to be. My game in particular used clicks as a method of “attacking” the “enemy” that was on screen. The goal was to click and defeat the enemy in a fast enough time to not take damage as your only had 5 hearts or chances to be hit before you lost. With this goal the program used a time based code to check how much time had passed between clicks and deal damage if the time had reached a certain threshold. That is the basis of the code and its intended use."
+  },
+  {
+    "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html#the-event-handlers",
+    "href": "posts/2023-11-25-Javascript-eventhandlers/index.html#the-event-handlers",
+    "title": "How I worked with javascript event handlers",
+    "section": "The Event Handlers",
+    "text": "The Event Handlers\nIn order to achieve the plan of a clicker game I had to learn and use event handlers. Event Handlers are bits of code that accept user input then do an action based on this input. In the case of this program the evnet handlers looked for a click action from either a mouse or a touchscreen and subtracted health from the enemy on screen if that click happened within the bounds of the enemies image. In order for the event handlers to continue to run the program ran almost entirely within a while loop that monitored the players “health score” which upon hitting zero would disable the while loop and go to a game over screen. This was only one example of the use of event handlers. They are very versatile and are used to accept multiple different types of user inputs in fact every game that youve played, app you’ve used, or website you’ve interacted with has used event handlers to some degree!"
+  },
+  {
+    "objectID": "posts/2023-11-16-why-not-a-triangle-dance/index.html",
+    "href": "posts/2023-11-16-why-not-a-triangle-dance/index.html",
+    "title": "Why not a Triangle Dance?",
     "section": "",
-    "text": "These two articles go in depth with my solutions to two of the homework assignments I had this semester.\nThe first article, “A Class called Group”, discusses the solution to a problem that uses a group and it’s methods to answer the problem.\nThe second article, “Recursive Recursion”, displays the use of recursive functions to solve the problem given in the homework assignment."
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan posuere eros non lobortis. Duis in ipsum quis felis imperdiet commodo et in nisi. Mauris ac dapibus velit, ut euismod justo. Proin sed magna ante. Nullam porta libero mauris. Duis efficitur velit eget leo imperdiet venenatis. Suspendisse at mollis sem. Ut iaculis pulvinar diam, in vehicula mi. Vivamus non tristique sapien. Nunc molestie ex interdum libero dapibus, ut dapibus neque cursus. In egestas erat lorem, et tempor elit varius a. Proin at egestas odio. Donec malesuada, odio nec molestie convallis, quam nulla tincidunt purus, a mattis velit mi nec massa. Vivamus condimentum urna odio, eu luctus eros fringilla eget. In consequat vehicula suscipit.\nNam leo nisi, tempor ut tortor id, laoreet accumsan purus. Sed eget mauris varius quam molestie tincidunt varius vitae elit. Quisque faucibus sapien orci. Pellentesque quis laoreet mi. In quis nisi posuere, porta dolor a, imperdiet eros. Pellentesque scelerisque venenatis felis, blandit condimentum augue porttitor at. Donec non sodales nisi. Morbi vitae fermentum mi, ac suscipit quam. Proin egestas, neque sit amet semper porttitor, libero sapien facilisis risus, at pharetra orci nibh at turpis. Aenean vel eros bibendum, dictum purus eu, commodo libero. Phasellus eros augue, auctor non volutpat non, scelerisque at neque. Maecenas eget rhoncus sapien. Integer non nibh dictum, malesuada orci non, laoreet dolor. Nam a nisi mauris. Fusce vitae enim iaculis, eleifend ligula eget, semper velit.\nFusce et dictum nulla, nec ultrices ante. Fusce imperdiet nulla sit amet tristique porta. Vestibulum condimentum diam a lorem viverra, nec imperdiet massa interdum. Integer nec libero sed dui aliquam aliquam. Suspendisse ornare est sed diam sodales faucibus. Aenean tempor a diam vel consectetur. Cras placerat non est id eleifend."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "This site is a project for CSC324. The following website will contain articles discussing past homework answers, my process of creating nthe theme of this website, and a blog with some interesting posts!\nThis website was made with Quarto!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#about-this-site",
+    "href": "index.html#about-this-site",
+    "title": "Welcome",
+    "section": "",
+    "text": "This site is a project for CSC324. The following website will contain articles discussing past homework answers, my process of creating nthe theme of this website, and a blog with some interesting posts!\nThis website was made with Quarto!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "articles/article_03.html",
+    "href": "articles/article_03.html",
+    "title": "Recustomizing a Site",
+    "section": "",
+    "text": "For our website project we were asked to make a unique change to our website, preferably one that we would have to learn how to go about doing. I deceided to customize my website with unique backgrounds, fontcolors(albeit those that worked with the backgrounds), logos, and a favicon. To implement these changes I had to spend quite a bit of time researching websites and quarto itself to find how to work with the preset file structure and the languages that quarto uses."
+  },
+  {
+    "objectID": "articles/article_03.html#style.css",
+    "href": "articles/article_03.html#style.css",
+    "title": "Recustomizing a Site",
+    "section": "Style.css",
+    "text": "Style.css\nFirst I had the main themeing of the website the style.css within this file I set a scss default to be the url of the forested image that I enjoyed. This would set the background website wide to be the image found at that url.\n/*-- scss:defaults --*/\n\n  body {\n    background-image: url(\"https://cache.desktopnexus.com/thumbseg/2361/2361681-bigthumbnail.jpg\");\n    background-size: cover;\n    background-repeat: no-repeat;\n    /*background-position: center center;*/\n    /*background-attachment: fixed;*/\n  }"
+  },
+  {
+    "objectID": "articles/article_03.html#other-styles",
+    "href": "articles/article_03.html#other-styles",
+    "title": "Recustomizing a Site",
+    "section": "Other styles",
+    "text": "Other styles\nNext I decided on an image for my Blog, as it was a seperate image from the website wide theme I had set earlier I had to apply it to the index.qmd file of the blog posts in its own style block although the general process of using a url to set the background remained the same.\n&lt;style&gt;\n  body {\n  background-image: url(\"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e6f5dd6d-1e1c-46d9-a752-4086959dd091/d74difm-a97adf21-4bb8-488a-b9fe-ba961be3f1a8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U2ZjVkZDZkLTFlMWMtNDZkOS1hNzUyLTQwODY5NTlkZDA5MVwvZDc0ZGlmbS1hOTdhZGYyMS00YmI4LTQ4OGEtYjlmZS1iYTk2MWJlM2YxYTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PPG53cMFBUq7oHdRAnnnKPQsGd_o5VLDBVxNt5Vhd3A\");\n  background-size: cover;\n  background-repeat: no-repeat;\n}\n  \n&lt;/style&gt;"
+  },
+  {
+    "objectID": "articles/article_03.html#logos",
+    "href": "articles/article_03.html#logos",
+    "title": "Recustomizing a Site",
+    "section": "Logo’s",
+    "text": "Logo’s\nThe process of adding a logo was fairly simple thanks to quartos design adding a logo was as simple as using the logo line and directly providing the filepath to the image that i wanted to use as a logo.\nlogo: /images/wolf.png\nThe same process as above applies to the favicon with the only difference being the word logo being exchanged for favicon.\n favicon: /images/favicon.png"
+  },
+  {
+    "objectID": "articles/article_03.html#fonts",
+    "href": "articles/article_03.html#fonts",
+    "title": "Recustomizing a Site",
+    "section": "Fonts",
+    "text": "Fonts\nThe process of changing the font had me stumped at first as I was unsure where it belonged. I eventually found that the font is controlled by the .yml file under the main format section, the font would be placed under the theme, there I had adjusted the font to be a white color and the coloration of links to be yellowed. I also considered changing the actual font itself but decided I prefered the default one that was already in use.\nfontcolor: \"#FFFFFF\"\nlinkcolor: \"#ccff99\""
   },
   {
     "objectID": "articles/article_01.html",
@@ -112,52 +175,45 @@
     "text": "The Function Body\nWith the name and the function initialized we now need to work on the body of the function. The function body is the main process that will be used when the function is called.\nFirst we’ll start with an if statement, this first statement will check to see if the value of num is less than 0, if it is then it will change the value of num to be equal to isEven(num + 2) this enters into a recursive occurence where the value of num will continue to be increased by 2 and then re-entered into the isEven function until num is greater than 0.\n if (num &lt; 0) {\n        num = isEven(num + 2);\n    }\nOnce the value of num is greater than 0 the function will enter its first else statement. In which is held another if - else if - else statement.\nThe first part of this statement being an if statement that will check if the value of num is equal to 0, if it is then the value of num will be set to true.\n if (num == 0) {\n            num = true;\n }\nOtherwise the else if statement will check if the value of num equals 1, if this is true then num will be set to false. If both if statements are false then the function will continue to the final else statement.\nelse if (num == 1) {\n            num = false;\n        }\nIn the final else statement we see another recursive process in which the value of num is set to equal the value of isEven(num - 2) which will decrease the value of num by 2 then re-enter that value into the function until the value is equal to 0 or 1 in which the value of num will be true or false.\nelse {\n            num = isEven(num - 2);\n        }\nOnce the value of num is equal to 0 or 1 then the function will return the value of num which will be either true or false.\n return num;\nThe following is the full code for the function isEven that solves the above problem. Feel free to test it with any number!\nfunction isEven(num) {\n    if (num &lt; 0) {\n        num = isEven(num + 2);\n    } else {\n        if (num == 0) {\n            num = true;\n        } else if (num == 1) {\n            num = false;\n        } else {\n            num = isEven(num - 2);\n        }\n    }\n    return num;\n}"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
+    "objectID": "articles/index.html",
+    "href": "articles/index.html",
+    "title": "Articles",
     "section": "",
-    "text": "This site is a project for CSC324. The following website will contain articles discussing past homework answers, my process of creating nthe theme of this website, and a blog with some interesting posts!\nThis website was made with Quarto!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Two of the following articles go in depth with my solutions to two of the homework assignments I had this semester.\nThe first article, “A Class called Group”, discusses the solution to a problem that uses a group and it’s methods to answer the problem.\nThe second article, “Recursive Recursion”, displays the use of recursive functions to solve the problem given in the homework assignment.\nThe Third Article discusses the changes I made to my website to give it a customized look and theme."
   },
   {
-    "objectID": "index.html#about-this-site",
-    "href": "index.html#about-this-site",
-    "title": "Welcome",
+    "objectID": "posts/2023-11-16-conquestidore-dinosaurs/index.html",
+    "href": "posts/2023-11-16-conquestidore-dinosaurs/index.html",
+    "title": "Did Spanish Conquestidores Fight Dinosaurs?",
     "section": "",
-    "text": "This site is a project for CSC324. The following website will contain articles discussing past homework answers, my process of creating nthe theme of this website, and a blog with some interesting posts!\nThis website was made with Quarto!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales neque dui, sit amet dictum metus sodales varius. Pellentesque finibus ante at dolor maximus pellentesque. Aenean nec sapien congue, rhoncus tellus et, volutpat nulla. Ut pellentesque pulvinar metus et mattis. Aliquam nunc quam, viverra vitae commodo in, accumsan porttitor est. Donec pulvinar ante libero, ac tristique tortor auctor ut. Suspendisse potenti. Aliquam ac facilisis tellus. Maecenas arcu elit, fringilla vel pretium sit amet, blandit eu erat. In fermentum elementum eros sit amet tristique. Nam id urna ac turpis iaculis euismod vel vitae enim.\nVivamus accumsan nisl et magna vehicula tempor. Sed fermentum in purus ut consectetur. Ut eget luctus dolor, sit amet sollicitudin mauris. Donec eget purus arcu. Donec vulputate consequat urna eu sollicitudin. Donec urna justo, euismod a finibus vitae, tincidunt a velit. Maecenas dolor erat, fermentum sit amet velit id, dignissim scelerisque tortor. Maecenas eu aliquet orci.\nSed orci turpis, tincidunt id egestas quis, semper eget libero. Morbi consectetur nisl vulputate maximus ultricies. Vivamus vehicula faucibus purus, a pulvinar eros pharetra eget. Ut hendrerit pharetra vestibulum. Vestibulum id nibh augue. Mauris at lacus in nisi fringilla posuere eget non urna. Suspendisse potenti. Aliquam hendrerit fermentum metus non sollicitudin. Ut nec diam ac ante posuere vestibulum convallis at ligula. Etiam enim sem, auctor ut lacus quis, mollis iaculis nisl. Aenean in risus lacus. Morbi eget lacinia nisi. Nulla ornare justo eu metus porttitor dictum. Phasellus ultrices tellus at lectus rutrum pulvinar."
   },
   {
-    "objectID": "posts/2023-11-16-why-not-a-triangle-dance/index.html",
-    "href": "posts/2023-11-16-why-not-a-triangle-dance/index.html",
-    "title": "Why not a Triangle Dance?",
+    "objectID": "posts/2023-11-16-you-wouldn't/index.html",
+    "href": "posts/2023-11-16-you-wouldn't/index.html",
+    "title": "Would You Download A Car?",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan posuere eros non lobortis. Duis in ipsum quis felis imperdiet commodo et in nisi. Mauris ac dapibus velit, ut euismod justo. Proin sed magna ante. Nullam porta libero mauris. Duis efficitur velit eget leo imperdiet venenatis. Suspendisse at mollis sem. Ut iaculis pulvinar diam, in vehicula mi. Vivamus non tristique sapien. Nunc molestie ex interdum libero dapibus, ut dapibus neque cursus. In egestas erat lorem, et tempor elit varius a. Proin at egestas odio. Donec malesuada, odio nec molestie convallis, quam nulla tincidunt purus, a mattis velit mi nec massa. Vivamus condimentum urna odio, eu luctus eros fringilla eget. In consequat vehicula suscipit.\nNam leo nisi, tempor ut tortor id, laoreet accumsan purus. Sed eget mauris varius quam molestie tincidunt varius vitae elit. Quisque faucibus sapien orci. Pellentesque quis laoreet mi. In quis nisi posuere, porta dolor a, imperdiet eros. Pellentesque scelerisque venenatis felis, blandit condimentum augue porttitor at. Donec non sodales nisi. Morbi vitae fermentum mi, ac suscipit quam. Proin egestas, neque sit amet semper porttitor, libero sapien facilisis risus, at pharetra orci nibh at turpis. Aenean vel eros bibendum, dictum purus eu, commodo libero. Phasellus eros augue, auctor non volutpat non, scelerisque at neque. Maecenas eget rhoncus sapien. Integer non nibh dictum, malesuada orci non, laoreet dolor. Nam a nisi mauris. Fusce vitae enim iaculis, eleifend ligula eget, semper velit.\nFusce et dictum nulla, nec ultrices ante. Fusce imperdiet nulla sit amet tristique porta. Vestibulum condimentum diam a lorem viverra, nec imperdiet massa interdum. Integer nec libero sed dui aliquam aliquam. Suspendisse ornare est sed diam sodales faucibus. Aenean tempor a diam vel consectetur. Cras placerat non est id eleifend."
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor lacinia mi, sit amet sagittis tellus sollicitudin ut. Vivamus gravida posuere risus. Nam a nisi ac mi elementum tincidunt. Nulla dignissim tempus fringilla. Nunc dui risus, ultricies ut auctor eget, bibendum sit amet ligula. Duis interdum scelerisque enim in placerat. Donec ut fermentum odio. Vivamus vel neque tincidunt, lacinia tellus at, interdum quam. Vivamus vehicula eleifend rutrum.\nProin a convallis ante. Phasellus sagittis quam eget massa interdum ullamcorper. Nulla vestibulum nec diam eu aliquet. Nunc sed neque purus. In vel tempus mi. Maecenas commodo, lorem sit amet rhoncus laoreet, est felis pharetra ante, eu luctus massa velit non felis. Aenean in dolor eget mauris lacinia condimentum. Donec at orci nec sem laoreet lacinia at in velit. Phasellus consectetur nunc nibh, in vulputate velit auctor at. Duis at dui eros. Vivamus vehicula purus magna, ut imperdiet eros iaculis at. Maecenas quis magna vitae nibh pulvinar semper id eget nibh.\nQuisque a condimentum neque. Donec tellus lorem, varius ac pretium quis, mattis vitae odio. Duis vestibulum enim sapien, at dictum elit consectetur quis. Suspendisse risus turpis, laoreet eget felis eget, tristique efficitur velit. Fusce varius purus sem, in mollis est cursus nec. Phasellus eget efficitur erat. Vivamus finibus quam quis mauris pretium accumsan. Nullam sagittis dignissim imperdiet. Aliquam a tincidunt metus. Fusce sagittis venenatis nisi in posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut feugiat justo quam, nec dignissim dui ultrices eget."
   },
   {
-    "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html",
-    "href": "posts/2023-11-25-Javascript-eventhandlers/index.html",
-    "title": "How I worked with javascript event handlers",
+    "objectID": "posts/2023-11-29-Game-Modding/index.html",
+    "href": "posts/2023-11-29-Game-Modding/index.html",
+    "title": "Have you ever attempted to mod a game?",
     "section": "",
-    "text": "In my highschool years I took an AP computer science course that focused on the history of computer technology and the use of JavaScript. We used a website called code.org to learn and submit our code however this website was linked to my highschool email and thus all the programs I wrote have been lost to time."
+    "text": "Video game modding is a large undertaking especially for games for games that are still receiving updates as these updates often change the internal program of the game itself and force modders to rewrite their programs for parity. These modders, the creators of mods, have to learn the language used for a game and consider the code the game uses then redesign it to fit the plan they have. This requires a large deal of skill as it requires the ability to read, interpret, and reapply another groups code."
   },
   {
-    "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html#background-info",
-    "href": "posts/2023-11-25-Javascript-eventhandlers/index.html#background-info",
-    "title": "How I worked with javascript event handlers",
+    "objectID": "posts/2023-11-29-Game-Modding/index.html#intro",
+    "href": "posts/2023-11-29-Game-Modding/index.html#intro",
+    "title": "Have you ever attempted to mod a game?",
     "section": "",
-    "text": "In my highschool years I took an AP computer science course that focused on the history of computer technology and the use of JavaScript. We used a website called code.org to learn and submit our code however this website was linked to my highschool email and thus all the programs I wrote have been lost to time."
+    "text": "Video game modding is a large undertaking especially for games for games that are still receiving updates as these updates often change the internal program of the game itself and force modders to rewrite their programs for parity. These modders, the creators of mods, have to learn the language used for a game and consider the code the game uses then redesign it to fit the plan they have. This requires a large deal of skill as it requires the ability to read, interpret, and reapply another groups code."
   },
   {
-    "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html#the-main-program",
-    "href": "posts/2023-11-25-Javascript-eventhandlers/index.html#the-main-program",
-    "title": "How I worked with javascript event handlers",
-    "section": "The Main Program",
-    "text": "The Main Program\nAs the program was lost I can’t supply code snippets as example but I will do my best to explain the code and what it intended to do. The program was a mostly simple clicker game, a game where one would click on objects on screen to either collect money, do damage, block attacks whatever the game intended clicks to be. My game in particular used clicks as a method of “attacking” the “enemy” that was on screen. The goal was to click and defeat the enemy in a fast enough time to not take damage as your only had 5 hearts or chances to be hit before you lost. With this goal the program used a time based code to check how much time had passed between clicks and deal damage if the time had reached a certain threshold. That is the basis of the code and its intended use."
-  },
-  {
-    "objectID": "posts/2023-11-25-Javascript-eventhandlers/index.html#the-event-handlers",
-    "href": "posts/2023-11-25-Javascript-eventhandlers/index.html#the-event-handlers",
-    "title": "How I worked with javascript event handlers",
-    "section": "The Event Handlers",
-    "text": "The Event Handlers\nIn order to achieve the plan of a clicker game I had to learn and use event handlers. Event Handlers are bits of code that accept user input then do an action based on this input. In the case of this program the evnet handlers looked for a click action from either a mouse or a touchscreen and subtracted health from the enemy on screen if that click happened within the bounds of the enemies image. In order for the event handlers to continue to run the program ran almost entirely within a while loop that monitored the players “health score” which upon hitting zero would disable the while loop and go to a game over screen. This was only one example of the use of event handlers. They are very versatile and are used to accept multiple different types of user inputs in fact every game that youve played, app you’ve used, or website you’ve interacted with has used event handlers to some degree!"
+    "objectID": "posts/2023-11-29-Game-Modding/index.html#my-attempt",
+    "href": "posts/2023-11-29-Game-Modding/index.html#my-attempt",
+    "title": "Have you ever attempted to mod a game?",
+    "section": "My Attempt",
+    "text": "My Attempt\nI myself have attempted to mod a game called terraria, a game that uses the C++ language to execute its programs. I created a simple mod in this language that designed a basic tool for the player to use, the art of said tool was very primitive to say the least but the tool and its materials all functioned. Just making that one tool was a large undertaking however as it required me to not only learn aspects of C++ but also required knowledge of the game itself and how it ran, requiring me to add event tags to items and materials that allowed the game to recognize what an item was and how it was supposed to be catogorized and used in its processes. Suffice to say I find the prospect of modding interesting yet exceedingly difficult and believe it takes a large amount of skill and understanding of programming in all languages."
   }
 ]

@@ -5,6 +5,7 @@ project:
 website:
   title: "Sean's Webpage"
   site-path: "/personal-sean-switzer/"
+  favicon: /images/favicon.png
   navbar:
     logo: /images/wolf.png
     background: transparent
@@ -34,6 +35,8 @@ website:
             href:  articles/article_01.qmd
           - text: "Recursive Recursion"
             href:  articles/article_02.qmd
+          - text: "Recustomizing a Site"
+            href:  articles/article_03.qmd
       - section: "Posts"
         href: posts/index.qmd
         contents: "posts/*/*.qmd"

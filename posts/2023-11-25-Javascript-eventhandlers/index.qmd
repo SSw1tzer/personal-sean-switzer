@@ -8,6 +8,15 @@ categories: [substantive]
 image: banner.PNG
 ---
 
+<style>
+  body {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e6f5dd6d-1e1c-46d9-a752-4086959dd091/d74difm-a97adf21-4bb8-488a-b9fe-ba961be3f1a8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U2ZjVkZDZkLTFlMWMtNDZkOS1hNzUyLTQwODY5NTlkZDA5MVwvZDc0ZGlmbS1hOTdhZGYyMS00YmI4LTQ4OGEtYjlmZS1iYTk2MWJlM2YxYTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PPG53cMFBUq7oHdRAnnnKPQsGd_o5VLDBVxNt5Vhd3A");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+</style>
+
 ## Background Info
 
 In my highschool years I took an AP computer science course that focused on the history of computer technology and 

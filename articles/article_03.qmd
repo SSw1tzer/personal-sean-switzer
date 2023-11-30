@@ -1,0 +1,67 @@
+---
+title: "Recustomizing a Site"
+engine: knitr
+---
+
+# Introduction
+
+For our website project we were asked to make a unique change to our website, preferably one that we would have to learn how to go about doing. I deceided to customize my website with unique backgrounds, fontcolors(albeit those that worked with the backgrounds), logos, and a favicon. To implement these changes I had to spend quite a bit of time researching websites and quarto itself to find how to work with the preset file structure and the languages that quarto uses.
+
+# The Process
+
+I decided I wanted to go after a natural theme for my website as I have always enjoyed forests, caves, and different aspects of nature. So I decided I wanted the main website background to be a forest while my blog background was a cave as I had titled my blog "The Echo Chamber". I then went through the process of finding a logo I liked and modifying it to better fit the website, such as removing its background and making it more circular in shape. I also designed a pixel style favicon to implement as the symbol for my website. I will explain how I programmed all of this below.
+
+## Style.css
+
+First I had the main themeing of the website the `style.css` within this file I set a scss default to be the url of the forested image that I enjoyed. This would set the background website wide to be the image found at that url. 
+
+
+```css
+/*-- scss:defaults --*/
+
+  body {
+    background-image: url("https://cache.desktopnexus.com/thumbseg/2361/2361681-bigthumbnail.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: center center;*/
+    /*background-attachment: fixed;*/
+  }
+```
+
+## Other styles
+
+Next I decided on an image for my Blog, as it was a seperate image from the website wide theme I had set earlier I had to apply it to the index.qmd file of the blog posts in its own `style` block although the general process of using a url to set the background remained the same.
+
+```css
+<style>
+  body {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e6f5dd6d-1e1c-46d9-a752-4086959dd091/d74difm-a97adf21-4bb8-488a-b9fe-ba961be3f1a8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U2ZjVkZDZkLTFlMWMtNDZkOS1hNzUyLTQwODY5NTlkZDA5MVwvZDc0ZGlmbS1hOTdhZGYyMS00YmI4LTQ4OGEtYjlmZS1iYTk2MWJlM2YxYTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PPG53cMFBUq7oHdRAnnnKPQsGd_o5VLDBVxNt5Vhd3A");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+</style>
+```
+
+## Logo's
+
+The process of adding a logo was fairly simple thanks to quartos design adding a logo was as simple as using the `logo` line and directly providing the filepath to the image that i wanted to use as a logo.
+
+```html
+logo: /images/wolf.png
+```
+
+The same process as above applies to the favicon with the only difference being the word `logo` being exchanged for `favicon`.
+
+```html
+ favicon: /images/favicon.png
+```
+
+## Fonts
+
+The process of changing the font had me stumped at first as I was unsure where it belonged. I eventually found that the font is controlled by the `.yml` file under the main format section, the font would be placed under the theme, there I had adjusted the font to be a white color and the coloration of links to be yellowed. I also considered changing the actual font itself but decided I prefered the default one that was already in use.
+
+```html
+fontcolor: "#FFFFFF"
+linkcolor: "#ccff99"
+```

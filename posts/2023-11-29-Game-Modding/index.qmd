@@ -1,0 +1,26 @@
+---
+title: "Have you ever attempted to mod a game?"
+description: "A Discussion of the aspect of video game modification"
+author:
+  - name: Sean Switzer
+date: "2023-11-29"
+categories: [substantive] 
+image: banner.png
+---
+
+<style>
+  body {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e6f5dd6d-1e1c-46d9-a752-4086959dd091/d74difm-a97adf21-4bb8-488a-b9fe-ba961be3f1a8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U2ZjVkZDZkLTFlMWMtNDZkOS1hNzUyLTQwODY5NTlkZDA5MVwvZDc0ZGlmbS1hOTdhZGYyMS00YmI4LTQ4OGEtYjlmZS1iYTk2MWJlM2YxYTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PPG53cMFBUq7oHdRAnnnKPQsGd_o5VLDBVxNt5Vhd3A");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+</style>
+
+## Intro 
+
+Video game modding is a large undertaking especially for games for games that are still receiving updates as these updates often change the internal program of the game itself and force modders to rewrite their programs for parity. These modders, the creators of mods, have to learn the language used for a game and consider the code the game uses then redesign it to fit the plan they have. This requires a large deal of skill as it requires the ability to read, interpret, and reapply another groups code. 
+
+## My Attempt
+
+I myself have attempted to mod a game called terraria, a game that uses the C++ language to execute its programs. I created a simple mod in this language that designed a basic tool for the player to use, the art of said tool was very primitive to say the least but the tool and its materials all functioned. Just making that one tool was a large undertaking however as it required me to not only learn aspects of C++ but also required knowledge of the game itself and how it ran, requiring me to add event tags to items and materials that allowed the game to recognize what an item was and how it was supposed to be catogorized and used in its processes. Suffice to say I find the prospect of modding interesting yet exceedingly difficult and believe it takes a large amount of skill and understanding of programming in all languages.

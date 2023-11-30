@@ -8,6 +8,15 @@ categories: [lorem ipsum]
 image: banner.PNG
 ---
 
+<style>
+  body {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e6f5dd6d-1e1c-46d9-a752-4086959dd091/d74difm-a97adf21-4bb8-488a-b9fe-ba961be3f1a8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U2ZjVkZDZkLTFlMWMtNDZkOS1hNzUyLTQwODY5NTlkZDA5MVwvZDc0ZGlmbS1hOTdhZGYyMS00YmI4LTQ4OGEtYjlmZS1iYTk2MWJlM2YxYTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PPG53cMFBUq7oHdRAnnnKPQsGd_o5VLDBVxNt5Vhd3A");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+</style>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales neque dui, sit amet dictum metus sodales varius. Pellentesque finibus ante at dolor maximus pellentesque. Aenean nec sapien congue, rhoncus tellus et, volutpat nulla. Ut pellentesque pulvinar metus et mattis. Aliquam nunc quam, viverra vitae commodo in, accumsan porttitor est. Donec pulvinar ante libero, ac tristique tortor auctor ut. Suspendisse potenti. Aliquam ac facilisis tellus. Maecenas arcu elit, fringilla vel pretium sit amet, blandit eu erat. In fermentum elementum eros sit amet tristique. Nam id urna ac turpis iaculis euismod vel vitae enim.
 
 Vivamus accumsan nisl et magna vehicula tempor. Sed fermentum in purus ut consectetur. Ut eget luctus dolor, sit amet sollicitudin mauris. Donec eget purus arcu. Donec vulputate consequat urna eu sollicitudin. Donec urna justo, euismod a finibus vitae, tincidunt a velit. Maecenas dolor erat, fermentum sit amet velit id, dignissim scelerisque tortor. Maecenas eu aliquet orci.
